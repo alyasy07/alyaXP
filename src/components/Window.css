@@ -1,0 +1,218 @@
+.window {
+  /* position: absolute; removed because wrapper handles it */
+  background: #ECE9D8;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid #0054E3;
+}
+
+.window-titlebar {
+  background: linear-gradient(to bottom, #0058EE 0%, #3593FF 4%, #288EFF 18%, #127dff 20%, #0369fc 39%, #0262ee 41%, #0057e5 100%);
+  color: #fff;
+  padding: 3px 5px 3px 8px; /* Adjusted padding */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: move;
+  user-select: none;
+  height: 30px;
+  border-radius: 5px 5px 0 0;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.window-title-area {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex: 1;
+}
+
+.window-title {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Tahoma', sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.window-controls {
+  display: flex;
+  gap: 2px;
+  margin-right: 2px;
+}
+
+.window-btn {
+  width: 21px;
+  height: 21px;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  transition: all 0.1s;
+  font-weight: bold;
+  padding: 0;
+  line-height: 1;
+  box-shadow: inset 0 0 2px rgba(0,0,0,0.2);
+}
+
+.window-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.window-btn.close {
+  background: #E81123;
+  border-color: #fff;
+}
+
+.window-btn.close:hover {
+  background: #f04b5a;
+}
+
+/* Toolbar Styles */
+.window-toolbar {
+  background: #ECE9D8;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.menubar {
+  display: flex;
+  gap: 12px;
+  padding: 2px 8px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  font-size: 11px;
+  color: #000;
+  background: #ECE9D8;
+}
+
+.menubar span {
+  cursor: default;
+}
+
+.menubar span:hover {
+  background-color: #316AC5;
+  color: white;
+}
+
+.toolbar-buttons {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 6px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  background: #ECE9D8;
+}
+
+.toolbar-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 6px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 11px;
+  color: #000;
+}
+
+.toolbar-btn:hover:not(.disabled) {
+  border-color: #ccc;
+  background-color: #f7f7f7;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.toolbar-btn.disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.toolbar-btn img {
+  width: 24px;
+  height: 24px;
+}
+
+.toolbar-separator {
+  width: 1px;
+  height: 24px;
+  background: #ccc;
+  margin: 0 4px;
+}
+
+.address-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 8px;
+  background: #ECE9D8;
+  font-size: 11px;
+}
+
+.address-label {
+  color: #444;
+}
+
+.address-input-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #7F9DB9;
+  padding: 2px;
+  height: 22px;
+}
+
+.address-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.address-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 11px;
+  font-family: 'Tahoma', sans-serif;
+  color: #000;
+}
+
+.go-button {
+  background: #ECE9D8;
+  border: 1px solid #7F9DB9;
+  padding: 0 8px;
+  margin-left: 4px;
+  height: 22px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+}
+
+.window-content {
+  flex: 1;
+  overflow: auto;
+  background: #fff;
+  padding: 0; /* Remove padding here, let content handle it */
+  position: relative;
+}
+
+.window-wrapper.maximized {
+  transform: none !important;
+  width: 100vw !important;
+  height: calc(100vh - 30px) !important;
+  top: 0 !important;
+  left: 0 !important;
+  position: fixed !important;
+}
+

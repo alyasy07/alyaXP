@@ -1,0 +1,104 @@
+.xp-balloon-tooltip {
+    position: absolute;
+    bottom: 42px;
+    right: 10px;
+    width: 250px;
+    background-color: #FFFFE1;
+    border: 1px solid #000;
+    border-radius: 6px;
+    padding: 6px 10px 10px 10px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    z-index: 10000;
+    font-family: 'Tahoma', sans-serif;
+    color: #000;
+    animation: balloonFadeIn 0.5s ease-out;
+}
+
+.xp-balloon-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+}
+
+.xp-balloon-title {
+    font-weight: bold;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.xp-balloon-close {
+    width: 14px;
+    height: 14px;
+    border: 1px solid transparent;
+    background: transparent;
+    font-size: 10px;
+    line-height: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 2px;
+    padding: 0;
+}
+
+.xp-balloon-close:hover {
+    background-color: #FFA500;
+    border-color: #fff;
+    color: #fff;
+}
+
+.xp-balloon-content {
+    font-size: 11px;
+    line-height: 1.4;
+}
+
+.xp-balloon-links {
+    margin-top: 8px;
+    font-size: 11px;
+}
+
+.xp-balloon-links a {
+    color: #0000FF;
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 0 4px;
+}
+
+.xp-balloon-links a:hover {
+    color: #000080;
+}
+
+/* Speech bubble tail */
+.xp-balloon-tooltip::after {
+    content: '';
+    position: absolute;
+    bottom: -19px;
+    right: 80px;
+    border-width: 0 0 20px 20px;
+    border-style: solid;
+    border-color: transparent transparent transparent #000;
+    width: 0;
+    height: 0;
+}
+
+.xp-balloon-tooltip::before {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    right: 82px;
+    border-width: 0 0 17px 17px;
+    border-style: solid;
+    border-color: transparent transparent transparent #FFFFE1;
+    width: 0;
+    height: 0;
+    z-index: 1;
+}
+
+@keyframes balloonFadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}

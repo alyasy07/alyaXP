@@ -1,0 +1,16 @@
+.desktop {
+  width: 100%;
+  height: calc(100vh - 40px);
+  background: url('/images/windows_xp_49.jpg') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.desktop-icons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 100px);
+  grid-auto-rows: 100px;
+  gap: 20px;
+  padding: 20px;
+}

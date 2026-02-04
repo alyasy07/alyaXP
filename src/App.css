@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Tahoma', 'MS Sans Serif', Arial, sans-serif;
+  overflow: hidden;
+  user-select: none;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Windows XP Blue Theme Colors */
+:root {
+  --xp-blue: #0054E3;
+  --xp-blue-light: #4A9EFF;
+  --xp-green: #3C8D2F;
+  --xp-taskbar-blue: #245EDC;
+  --xp-start-green: #3FA346;
+  --xp-window-title: linear-gradient(to right, #0054E3, #4A9EFF);
+  --xp-desktop: #5A7FDD;
+  --xp-border-light: #FFFFFF;
+  --xp-border-dark: #0831D9;
+}
