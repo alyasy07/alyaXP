@@ -28,7 +28,7 @@ function Window({ id, title, content, width, height, x, y, zIndex, onClose, onMi
       position={isMaximized ? { x: 0, y: 0 } : undefined}
       disabled={isMaximized}
       bounds="parent"
-      cancel="input,textarea,button,select,option,.window-controls"
+      cancel="input,textarea,button,select,option,.window-controls,.no-drag"
       onMouseDown={onFocus}
       nodeRef={nodeRef}
     >

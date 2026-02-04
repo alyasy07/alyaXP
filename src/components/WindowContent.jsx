@@ -10,7 +10,10 @@ import {
     ArrowLeft,
     Folder,
     Clock,
-    MoreVertical
+    MoreVertical,
+    X,
+    ChevronLeft,
+    ChevronRight
 } from 'lucide-react';
 
 const projectsData = [
@@ -315,20 +318,35 @@ const funProjects = [
         title: "I'm With You",
         desc: "A heartfelt clone of sendthesong.xyz.",
         link: "https://im-with-you-production.up.railway.app/",
-        icon: "./icons/windows_vista/vista_movie.ico",
+        icon: "./icons/windows_vista/vista_photo_gallery.ico",
         category: "Entertainment",
-        rating: 4.5,
-        reviews: 89
+        rating: 5.0,
+        reviews: 210,
+        screenshots: [
+            './images/imwithyou/1.png',
+            './images/imwithyou/2.png',
+            './images/imwithyou/3.png',
+            './images/imwithyou/4.png',
+            './images/imwithyou/5.png',
+            './images/imwithyou/6.png'
+        ]
     },
     {
         id: 'yves-archive',
         title: "Yves Archive",
         desc: "Online wardrobe & Telegram Bot integration.",
-        link: "#",
+        link: "https://github.com/alyasy07/yves-archive",
         icon: "./icons/windows_vista/vista_photo_gallery.ico",
         category: "Lifestyle",
         rating: 4.9,
-        reviews: 42
+        reviews: 42,
+        screenshots: [
+            './images/yves-archive/1.png',
+            './images/yves-archive/2.png',
+            './images/yves-archive/3.png',
+            './images/yves-archive/4.png',
+            './images/yves-archive/5.png'
+        ]
     }
 ];
 
@@ -1545,8 +1563,9 @@ const CommandPrompt = () => {
     );
 };
 
-const ProjectStore = ({ onLink }) => {
+const ProjectStore = ({ onLink, onOpenWindow }) => {
     const [selectedApp, setSelectedApp] = useState(null);
+    const [activeScreenshotIndex, setActiveScreenshotIndex] = useState(null);
 
     const handleOpenLink = (project) => {
         if (!project.link || project.link === '#') return;
@@ -1558,9 +1577,31 @@ const ProjectStore = ({ onLink }) => {
         });
     };
 
+    const openLightbox = (index) => {
+        setActiveScreenshotIndex(index);
+    };
+
+    const closeLightbox = () => {
+        setActiveScreenshotIndex(null);
+    };
+
+    const nextScreenshot = (e) => {
+        e.stopPropagation();
+        if (activeScreenshotIndex !== null && selectedApp?.screenshots) {
+            setActiveScreenshotIndex((prev) => (prev + 1) % selectedApp.screenshots.length);
+        }
+    };
+
+    const prevScreenshot = (e) => {
+        e.stopPropagation();
+        if (activeScreenshotIndex !== null && selectedApp?.screenshots) {
+            setActiveScreenshotIndex((prev) => (prev - 1 + selectedApp.screenshots.length) % selectedApp.screenshots.length);
+        }
+    };
+
     if (selectedApp) {
         return (
-            <div className="ms-store-container">
+            <div className="ms-store-container" style={{ position: 'relative' }}>
                 <div className="ms-store-header">
                     <button className="xp-back-btn" onClick={() => setSelectedApp(null)} style={{ color: '#000', border: '1px solid #ccc' }}>
                         ← Back
@@ -1568,9 +1609,9 @@ const ProjectStore = ({ onLink }) => {
                     <div style={{ fontWeight: 'bold' }}>{selectedApp.title}</div>
                     <div style={{ width: 50 }}></div>
                 </div>
-                <div className="ms-store-content" style={{ padding: '40px' }}>
+                <div className="ms-store-content" style={{ padding: '40px', overflowY: 'auto' }}>
                     <div style={{ display: 'flex', gap: '20px', marginBottom: '30px' }}>
-                        <div style={{ width: 100, height: 100, background: '#f9f9f9', borderRadius: 16, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <div style={{ width: 100, height: 100, background: '#f9f9f9', borderRadius: 16, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                             <img src={selectedApp.icon} style={{ width: 80, height: 80 }} />
                         </div>
                         <div>
@@ -1586,6 +1627,46 @@ const ProjectStore = ({ onLink }) => {
                         </div>
                     </div>
 
+                    {/* Screenshot Gallery */}
+                    {selectedApp.screenshots && selectedApp.screenshots.length > 0 && (
+                        <div style={{ marginBottom: '30px' }}>
+                            <h3 style={{ margin: '0 0 15px 0' }}>Screenshots</h3>
+                            <div style={{
+                                display: 'flex',
+                                gap: '15px',
+                                overflowX: 'auto',
+                                paddingBottom: '10px',
+                                scrollbarWidth: 'thin'
+                            }}>
+                                {selectedApp.screenshots.map((shot, index) => (
+                                    <div
+                                        key={index}
+                                        onClick={() => openLightbox(index)}
+                                        style={{
+                                            flex: '0 0 auto',
+                                            width: '300px',
+                                            height: '180px',
+                                            borderRadius: '8px',
+                                            overflow: 'hidden',
+                                            cursor: 'pointer',
+                                            border: '1px solid #eee',
+                                            boxShadow: '0 2px 5px rgba(0,0,0,0.05)',
+                                            transition: 'transform 0.2s',
+                                        }}
+                                        onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+                                        onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+                                    >
+                                        <img
+                                            src={shot}
+                                            alt={`Screenshot ${index + 1}`}
+                                            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                        />
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
                     <div style={{ borderTop: '1px solid #eee', paddingTop: '20px' }}>
                         <h3 style={{ margin: '0 0 10px 0' }}>Description</h3>
                         <p style={{ lineHeight: '1.6', color: '#333' }}>{selectedApp.desc}</p>
@@ -1594,6 +1675,116 @@ const ProjectStore = ({ onLink }) => {
                         </p>
                     </div>
                 </div>
+
+                {/* Lightbox Overlay */}
+                {activeScreenshotIndex !== null && (
+                    <div style={{
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                        right: 0,
+                        bottom: 0,
+                        background: 'rgba(0,0,0,0.85)',
+                        zIndex: 100,
+                        display: 'flex',
+                        flexDirection: 'column',
+                        animate: { opacity: 1 }
+                    }}>
+                        <div style={{
+                            display: 'flex',
+                            justifyContent: 'flex-end',
+                            padding: '20px'
+                        }}>
+                            <button
+                                onClick={closeLightbox}
+                                style={{
+                                    background: 'rgba(255,255,255,0.2)',
+                                    border: 'none',
+                                    borderRadius: '50%',
+                                    width: 40,
+                                    height: 40,
+                                    color: '#fff',
+                                    cursor: 'pointer',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }}
+                            >
+                                <X size={24} />
+                            </button>
+                        </div>
+                        <div style={{
+                            flex: 1,
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            position: 'relative',
+                            padding: '0 60px',
+                            minHeight: 0,
+                            overflow: 'hidden'
+                        }}>
+                            <button
+                                onClick={prevScreenshot}
+                                style={{
+                                    position: 'absolute',
+                                    left: 20,
+                                    background: 'rgba(255,255,255,0.1)',
+                                    border: 'none',
+                                    borderRadius: '50%',
+                                    width: 50,
+                                    height: 50,
+                                    color: '#fff',
+                                    cursor: 'pointer',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    zIndex: 10
+                                }}
+                            >
+                                <ChevronLeft size={32} />
+                            </button>
+
+                            <img
+                                src={selectedApp.screenshots[activeScreenshotIndex]}
+                                style={{
+                                    maxWidth: '100%',
+                                    maxHeight: '100%',
+                                    objectFit: 'contain',
+                                    boxShadow: '0 0 20px rgba(0,0,0,0.5)'
+                                }}
+                            />
+
+                            <button
+                                onClick={nextScreenshot}
+                                style={{
+                                    position: 'absolute',
+                                    right: 20,
+                                    background: 'rgba(255,255,255,0.1)',
+                                    border: 'none',
+                                    borderRadius: '50%',
+                                    width: 50,
+                                    height: 50,
+                                    color: '#fff',
+                                    cursor: 'pointer',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    zIndex: 10
+                                }}
+                            >
+                                <ChevronRight size={32} />
+                            </button>
+                        </div>
+                        <div style={{
+                            textAlign: 'center',
+                            color: '#fff',
+                            padding: '20px',
+                            fontSize: '14px'
+                        }}>
+                            {activeScreenshotIndex + 1} / {selectedApp.screenshots.length}
+                        </div>
+                    </div>
+                )}
             </div>
         );
     }
@@ -1710,7 +1901,7 @@ const WindowContent = ({ type, onOpenWindow, data, onLink }) => {
     }
 
     if (type === 'project-dump') {
-        return <ProjectStore onLink={onLink} />;
+        return <ProjectStore onLink={onLink} onOpenWindow={onOpenWindow} />;
     }
 
     // Default Fallback for legacy folder views (if any) or 'recycle'
@@ -1730,17 +1921,54 @@ const WindowContent = ({ type, onOpenWindow, data, onLink }) => {
             </div>
         )),
         contact: renderXPFolder('Communication', 'contact', (
-            <div className="folder-content">
-                {/* Legacy contact logic */}
+            <div className="folder-content" style={{ display: 'flex', flexWrap: 'wrap', gap: '30px', padding: '30px', alignContent: 'flex-start', background: '#fff', height: '100%' }}>
+                <div
+                    className="no-drag"
+                    onClick={() => window.location.href = 'mailto:syafikaalya10@gmail.com'}
+                    style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: 'auto', gap: '5px', cursor: 'pointer' }}
+                    title="Send Email"
+                >
+                    <img src="./icons/communication/wm1.ico" style={{ width: 48, height: 48 }} />
+                    <span style={{ fontSize: '12px', textAlign: 'center', userSelect: 'text' }}>syafikaalya10@gmail.com</span>
+                </div>
+                <div
+                    className="no-drag"
+                    onClick={() => onOpenWindow && onOpenWindow({ title: 'Email.txt', content: 'notepad', width: 500, height: 400, data: { text: 'syafikaalya10@gmail.com' } })}
+                    style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '90px', gap: '5px', cursor: 'pointer' }}
+                    title="Open in Notepad"
+                >
+                    <img src="./icons/Windows XP Icons/TXT.png" style={{ width: 48, height: 48 }} />
+                    <span style={{ fontSize: '12px', textAlign: 'center' }}>Email.txt</span>
+                </div>
+                <div
+                    className="no-drag"
+                    onClick={() => onLink && onLink({ url: 'https://github.com/alyasy07', title: 'GitHub', icon: './images/github.png' })}
+                    style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '90px', gap: '5px', cursor: 'pointer' }}
+                >
+                    <img src="./images/github.png" style={{ width: 48, height: 48 }} />
+                    <span style={{ fontSize: '12px', textAlign: 'center' }}>GitHub</span>
+                </div>
+                <div
+                    className="no-drag"
+                    onClick={() => onLink && onLink({ url: 'https://linkedin.com', title: 'LinkedIn', icon: './images/linkedin.png' })}
+                    style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '90px', gap: '5px', cursor: 'pointer' }}
+                >
+                    <img src="./images/linkedin.png" style={{ width: 48, height: 48 }} />
+                    <span style={{ fontSize: '12px', textAlign: 'center' }}>LinkedIn</span>
+                </div>
+                <div
+                    className="no-drag"
+                    onClick={() => onOpenWindow && onOpenWindow({ title: 'My Resume', content: 'resume-viewer', width: 850, height: 650, data: { image: './images/RESUME NUR SYAFIKA ALYA (1).pdf' } })}
+                    style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '90px', gap: '5px', cursor: 'pointer' }}
+                >
+                    <img src="./icons/Windows XP Icons/Wordpad.png" style={{ width: 48, height: 48 }} />
+                    <span style={{ fontSize: '12px', textAlign: 'center' }}>Resume</span>
+                </div>
             </div>
         ))
     };
 
     return content[type] || <div>Content not found</div>;
 };
-
-
-
-
 
 export default WindowContent;
