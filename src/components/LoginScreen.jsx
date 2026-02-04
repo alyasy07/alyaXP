@@ -15,7 +15,7 @@ function LoginScreen({ onLogin }) {
         <div className="login-content">
           {/* Left Side: Branding */}
           <div className="login-brand-side">
-            <img src="/images/windows.png" alt="Windows XP" className="xp-logo-large"
+            <img src="./images/windows.png" alt="Windows XP" className="xp-logo-large"
               style={{ width: 120, height: 120, objectFit: 'contain', filter: 'drop-shadow(2px 2px 4px rgba(0,0,0,0.5))' }} />
             <div style={{ color: '#fff', fontSize: '2rem', fontWeight: 'bold', lineHeight: 1, textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}>
               Microsoft<br />
@@ -39,7 +39,7 @@ function LoginScreen({ onLogin }) {
               onClick={onLogin}
             >
               <div className="user-icon-frame">
-                <img src="/icons/Windows XP Icons/User Accounts.png" alt="User" />
+                <img src="./icons/Windows XP Icons/User Accounts.png" alt="User" />
               </div>
               <div className="user-info">
                 <span className="user-name">Nur Syafika Alya</span>
@@ -52,7 +52,7 @@ function LoginScreen({ onLogin }) {
 
       <div className="login-bottom-bar">
         <button className="turn-off-btn" onClick={() => window.location.reload()}>
-          <img src="/icons/Windows XP Icons/Power.png" alt="" style={{ width: 24, height: 24 }} />
+          <img src="./icons/Windows XP Icons/Power.png" alt="" style={{ width: 24, height: 24 }} />
           Turn off computer
         </button>
         <div className="xp-footer-logo">

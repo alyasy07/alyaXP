@@ -7,7 +7,7 @@ const BalloonTooltip = ({ onClose, onOpenWindow }) => {
         <div className="xp-balloon-tooltip">
             <div className="xp-balloon-header">
                 <div className="xp-balloon-title">
-                    <img src="/icons/Windows XP Icons/Information.png" alt="Info" style={{ width: 14, height: 14 }} />
+                    <img src="./icons/Windows XP Icons/Information.png" alt="Info" style={{ width: 14, height: 14 }} />
                     Welcome to Alya XP
                 </div>
                 <button className="xp-balloon-close" onClick={onClose}>

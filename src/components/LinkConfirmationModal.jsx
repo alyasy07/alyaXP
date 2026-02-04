@@ -26,7 +26,7 @@ const LinkConfirmationModal = ({ link, onConfirm, onCancel }) => {
                 <div className="link-modal-body">
                     <div className="link-modal-main">
                         <img
-                            src={icon || "/icons/Windows XP Icons/Internet Explorer.png"}
+                            src={icon || "./icons/Windows XP Icons/Internet Explorer.png"}
                             alt="Icon"
                             className="link-modal-icon-large"
                         />

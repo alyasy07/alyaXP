@@ -32,9 +32,9 @@ const projectsData = [
 
 <p>For a detailed look at the system architecture and testing procedures, please refer to the technical documentation attached below.</p>
 
-<div style='margin-top: 15px;'><a href='https://github.com/alyasy07/documentation/blob/main/Software%20Requirements%20for%20SLACES.pdf' target='_blank' rel='noopener noreferrer' class='yt-desc-link'><img src='/icons/windows_vista/vista_sticky_notes.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> Software Requirements Specification (SRS)</a><a href='https://github.com/alyasy07/documentation/blob/main/Software%20Design%20Document.pdf' target='_blank' rel='noopener noreferrer' class='yt-desc-link'><img src='/icons/windows_vista/vista_sticky_notes.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> Software Design Document (SDD)</a><a href='https://github.com/alyasy07/documentation/blob/main/FINAL%20REPORT.%20NUR%20SYAFIKA%20ALYA%20BINTI%20MOHD%20ZAMRI%20AZHAR.CDCS2666C.pdf' target='_blank' rel='noopener noreferrer' class='yt-desc-link'><img src='/icons/windows_vista/vista_sticky_notes.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> Final Report / Thesis</a></div>`,
+<div style='margin-top: 15px;'><a href='https://github.com/alyasy07/documentation/blob/main/Software%20Requirements%20for%20SLACES.pdf' target='_blank' rel='noopener noreferrer' class='yt-desc-link'><img src='./icons/windows_vista/vista_sticky_notes.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> Software Requirements Specification (SRS)</a><a href='https://github.com/alyasy07/documentation/blob/main/Software%20Design%20Document.pdf' target='_blank' rel='noopener noreferrer' class='yt-desc-link'><img src='./icons/windows_vista/vista_sticky_notes.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> Software Design Document (SDD)</a><a href='https://github.com/alyasy07/documentation/blob/main/FINAL%20REPORT.%20NUR%20SYAFIKA%20ALYA%20BINTI%20MOHD%20ZAMRI%20AZHAR.CDCS2666C.pdf' target='_blank' rel='noopener noreferrer' class='yt-desc-link'><img src='./icons/windows_vista/vista_sticky_notes.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> Final Report / Thesis</a></div>`,
         tech: 'Laravel 10 • MySQL • Bootstrap',
-        image: '/images/slaces_logo.jpg',
+        image: './images/slaces_logo.jpg',
         link: 'https://github.com/alyasy07/SLACESV1'
     },
     {
@@ -55,9 +55,9 @@ const projectsData = [
 
 <p>For a detailed look at the system architecture and testing procedures, please refer to the technical documentation attached below.</p>
 
-<div style='margin-top: 15px;'><a href='https://github.com/alyasy07/OODSV30/blob/main/UPDATED_SRS_CDCS2664D_FIVERS%20(1).pdf' target='_blank' rel='noopener noreferrer' class='yt-desc-link'><img src='/icons/windows_vista/vista_sticky_notes.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> Software Requirements Specification (SRS)</a><a href='https://github.com/alyasy07/OODSV30/blob/main/ISP551%20SDD%20(FIVERS).pdf' target='_blank' rel='noopener noreferrer' class='yt-desc-link'><img src='/icons/windows_vista/vista_sticky_notes.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> Software Design Document (SDD)</a></div>`,
+<div style='margin-top: 15px;'><a href='https://github.com/alyasy07/OODSV30/blob/main/UPDATED_SRS_CDCS2664D_FIVERS%20(1).pdf' target='_blank' rel='noopener noreferrer' class='yt-desc-link'><img src='./icons/windows_vista/vista_sticky_notes.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> Software Requirements Specification (SRS)</a><a href='https://github.com/alyasy07/OODSV30/blob/main/ISP551%20SDD%20(FIVERS).pdf' target='_blank' rel='noopener noreferrer' class='yt-desc-link'><img src='./icons/windows_vista/vista_sticky_notes.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> Software Design Document (SDD)</a></div>`,
         tech: 'Java • PHP • MySQL',
-        image: '/images/oods_logo.jpeg',
+        image: './images/oods_logo.jpeg',
         link: 'https://github.com/alyasy07/OODSV30'
     },
     {
@@ -78,9 +78,9 @@ const projectsData = [
 
 <p>For a detailed look at the system planning and application flow, please refer to the technical documentation attached below.</p>
 
-<div style='margin-top: 15px;'><a href='https://github.com/athirahmmn/Group_Project_CSC584/blob/master/CSC584_ORKED_STORYBOARD.pdf' target='_blank' rel='noopener noreferrer' class='yt-desc-link'><img src='/icons/windows_vista/vista_sticky_notes.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> Project Storyboard</a></div>`,
+<div style='margin-top: 15px;'><a href='https://github.com/athirahmmn/Group_Project_CSC584/blob/master/CSC584_ORKED_STORYBOARD.pdf' target='_blank' rel='noopener noreferrer' class='yt-desc-link'><img src='./icons/windows_vista/vista_sticky_notes.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> Project Storyboard</a></div>`,
         tech: 'Java EE • SQL',
-        image: '/images/recipe_logo.jpg',
+        image: './images/recipe_logo.jpg',
         link: 'https://github.com/athirahmmn/Group_Project_CSC584'
     },
     {
@@ -105,9 +105,9 @@ const projectsData = [
 
 <p>For detailed system usage instructions, please refer to the user manual attached below.</p>
 
-<div style='margin-top: 15px;'><a href='https://github.com/alyasy07/documentation/blob/main/User%20Manual%20GERIC%20Integrated%20Management%20System.pdf' target='_blank' rel='noopener noreferrer' class='yt-desc-link'><img src='/icons/windows_vista/vista_book_3.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> User Manual</a><a href='/images/copyright.png' target='_blank' rel='noopener noreferrer' class='yt-desc-link'><img src='/icons/windows_vista/vista_firewall_status_1.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> Certificate of Copyright</a></div>`,
+<div style='margin-top: 15px;'><a href='https://github.com/alyasy07/documentation/blob/main/User%20Manual%20GERIC%20Integrated%20Management%20System.pdf' target='_blank' rel='noopener noreferrer' class='yt-desc-link'><img src='./icons/windows_vista/vista_book_3.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> User Manual</a><a href='./images/copyright.png' target='_blank' rel='noopener noreferrer' class='yt-desc-link'><img src='./icons/windows_vista/vista_firewall_status_1.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> Certificate of Copyright</a></div>`,
         tech: 'Laravel • RBAC • System Architecture',
-        image: '/images/gims_logo.jpeg',
+        image: './images/gims_logo.jpeg',
         link: 'https://github.com/alyasy07/GERIC_RMSV8'
     },
     {
@@ -129,7 +129,7 @@ const projectsData = [
 • Responsive and intuitive UI built with HTML5 and CSS<br/>
 • Database integrity through normalized relational schema and secure queries</p>`,
         tech: 'PHP • MySQL',
-        image: '/images/elms_logo.jpeg',
+        image: './images/elms_logo.jpeg',
         link: 'https://github.com/alyasy07/ELMSV1'
     },
     {
@@ -154,9 +154,9 @@ const projectsData = [
 
 <p>For a detailed look at the project planning and business analysis, please refer to the documentation attached below.</p>
 
-<div style='margin-top: 15px;'><a href='https://github.com/alyasy07/documentation/blob/main/PROJECT%20PLAN.pdf' target='_blank' rel='noopener noreferrer' class='yt-desc-link'><img src='/icons/windows_vista/vista_sticky_notes.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> Project Plan</a><a href='https://github.com/alyasy07/documentation/blob/main/BUSINESS%20CASE.pdf' target='_blank' rel='noopener noreferrer' class='yt-desc-link'><img src='/icons/windows_vista/vista_sticky_notes.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> Business Case</a></div>`,
+<div style='margin-top: 15px;'><a href='https://github.com/alyasy07/documentation/blob/main/PROJECT%20PLAN.pdf' target='_blank' rel='noopener noreferrer' class='yt-desc-link'><img src='./icons/windows_vista/vista_sticky_notes.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> Project Plan</a><a href='https://github.com/alyasy07/documentation/blob/main/BUSINESS%20CASE.pdf' target='_blank' rel='noopener noreferrer' class='yt-desc-link'><img src='./icons/windows_vista/vista_sticky_notes.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> Business Case</a></div>`,
         tech: 'Figma • UI/UX',
-        image: '/images/levee_logo.jpeg',
+        image: './images/levee_logo.jpeg',
         link: 'https://www.figma.com/proto/ktsdaRl9B2JUcRxPbWw9P3/ISP640---MIDDLE-FIDELITY--Copy-?node-id=0-1&t=LJ8eU3eSF4k5qBuQ-1'
     },
     {
@@ -177,7 +177,7 @@ const projectsData = [
 • User research findings highlighting widespread saving challenges across age and income groups<br/>
 • Application of HCI theories: Usability Principles, Cognitive Load Theory, Feedback & Affordances</p>`,
         tech: 'Figma • FinTech',
-        image: '/images/spendity_logo.jpeg',
+        image: './images/spendity_logo.jpeg',
         link: 'https://www.figma.com/proto/5PUTLsflRLjcolV5fI71yr/ICT551-MIDDLE-FIDELITY?node-id=0-1&t=BnPuGWVtPFdR9wxq-1'
     },
     {
@@ -198,7 +198,7 @@ const projectsData = [
 • Template-driven Workflow: Leverages Blade templates to generate consistent outputs across the application.<br/>
 • Scalable Extensibility: Provides modular support for future add-ons or additional research workflows.</p>`,
         tech: 'Laravel • Web Tool',
-        image: '/images/ric_logo.jpeg',
+        image: './images/ric_logo.jpeg',
         link: 'https://github.com/alyasy07/RICV1'
     },
     {
@@ -227,7 +227,7 @@ Usability testing was performed with real users, gathering feedback on system co
 • User Feedback Integration leading to iterative design improvements<br/><br/>
 The project successfully identified Physical Health and Body Image as the primary concern within the community and proposed a comprehensive digital wellness solution that addressed physical, nutritional, mental, and social health dimensions.</p>`,
         tech: 'Prototype • User Research',
-        image: '/images/life_logo.jpg',
+        image: './images/life_logo.jpg',
         link: '#' // No direct link in provided text except "View Project Photos" modal
     },
     {
@@ -254,9 +254,9 @@ The project successfully identified Physical Health and Body Image as the primar
 
 <p>For detailed test cases and findings, please refer to the documentation attached below.</p>
 
-<div style='margin-top: 15px;'><a href='https://github.com/alyasy07/documentation/blob/main/STD%20(BH%26CO%20IMS)_FIVERS.pdf' target='_blank' rel='noopener noreferrer' class='yt-desc-link'><img src='/icons/windows_vista/vista_sticky_notes.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> System Testing Document (STD)</a></div>`,
+<div style='margin-top: 15px;'><a href='https://github.com/alyasy07/documentation/blob/main/STD%20(BH%26CO%20IMS)_FIVERS.pdf' target='_blank' rel='noopener noreferrer' class='yt-desc-link'><img src='./icons/windows_vista/vista_sticky_notes.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> System Testing Document (STD)</a></div>`,
         tech: 'documentation • QA',
-        image: '/images/testing.jpeg',
+        image: './images/testing.jpeg',
         link: 'https://github.com/alyasy07/documentation/blob/main/STD%20(BH%26CO%20IMS)_FIVERS.pdf'
     },
     {
@@ -287,7 +287,7 @@ Key Technical Stack:
 Outcome:
 The project provides Roblox developers with actionable, data-driven insights into user sentiment patterns, enabling targeted improvements in app performance, user safety features, and monetization strategies.
 
-<div style='margin-top: 20px;'><a href='https://www.figma.com/deck/z8k1ZbN4bbsd73bNMwrMoF/roblox-sentiment-analysis?node-id=1-223&t=YOtERLKQdIKz2WmI-1' target='_blank' class='yt-desc-link'><img src='/icons/windows_vista/vista_perf_center.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> View Evidence & Results</a></div>`,
+<div style='margin-top: 20px;'><a href='https://www.figma.com/deck/z8k1ZbN4bbsd73bNMwrMoF/roblox-sentiment-analysis?node-id=1-223&t=YOtERLKQdIKz2WmI-1' target='_blank' class='yt-desc-link'><img src='./icons/windows_vista/vista_perf_center.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> View Evidence & Results</a></div>`,
         tech: 'Python • RapidMiner • SVM',
         image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Roblox_player_icon_black.svg/800px-Roblox_player_icon_black.svg.png',
         link: 'https://www.figma.com/deck/z8k1ZbN4bbsd73bNMwrMoF/roblox-sentiment-analysis?node-id=1-223&t=YOtERLKQdIKz2WmI-1'
@@ -340,9 +340,9 @@ Next Steps / Potential Improvements:
 • Improve CI/CD: automatic preview deployments and testing on PRs
 • Add analytics or insights for user sessions
 
-<div style='margin-top: 20px;'><a href='https://focus-grow-eta.vercel.app' target='_blank' class='yt-desc-link'><img src='/icons/windows_vista/vista_netcenter.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> View Live Demo</a></div>`,
+<div style='margin-top: 20px;'><a href='https://focus-grow-eta.vercel.app' target='_blank' class='yt-desc-link'><img src='./icons/windows_vista/vista_netcenter.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> View Live Demo</a></div>`,
         tech: 'React • Vercel',
-        icon: 'clock', image: '/icons/windows_vista/vista_cal_1.ico',
+        icon: 'clock', image: './icons/windows_vista/vista_cal_1.ico',
         link: 'https://focus-grow-eta.vercel.app'
     }
 ];
@@ -353,11 +353,11 @@ const ProfileExplorer = ({ onOpenWindow }) => {
     const [gericTab, setGericTab] = useState('overview');
 
     const sidebarItems = [
-        { id: 'overview', label: 'Overview', icon: '/icons/Windows XP Icons/My Computer.png' },
-        { id: 'education', label: 'Education', icon: '/icons/Windows XP Icons/Help and Support.png' },
-        { id: 'experience', label: 'Experience', icon: '/icons/Windows XP Icons/Briefcase.png' },
-        { id: 'skills', label: 'Skills & Tools', icon: '/icons/Windows XP Icons/Control Panel.png' },
-        { id: 'certificates', label: 'Certificates', icon: '/icons/Windows XP Icons/Certificate.png' }
+        { id: 'overview', label: 'Overview', icon: './icons/Windows XP Icons/My Computer.png' },
+        { id: 'education', label: 'Education', icon: './icons/Windows XP Icons/Help and Support.png' },
+        { id: 'experience', label: 'Experience', icon: './icons/Windows XP Icons/Briefcase.png' },
+        { id: 'skills', label: 'Skills & Tools', icon: './icons/Windows XP Icons/Control Panel.png' },
+        { id: 'certificates', label: 'Certificates', icon: './icons/Windows XP Icons/Certificate.png' }
     ];
 
     return (
@@ -390,11 +390,11 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                     </div>
                     <div className="xp-task-content">
                         <div className="task-link">
-                            <img src="/icons/windows_vista/vista_book_1.ico" alt="" />
+                            <img src="./icons/windows_vista/vista_book_1.ico" alt="" />
                             <span>My Documents</span>
                         </div>
                         <div className="task-link">
-                            <img src="/icons/windows_vista/vista_netcenter.ico" alt="" />
+                            <img src="./icons/windows_vista/vista_netcenter.ico" alt="" />
                             <span>My Network</span>
                         </div>
                     </div>
@@ -406,7 +406,7 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                     <div className="profile-section">
                         <div style={{ display: 'flex', gap: '20px', alignItems: 'flex-start' }}>
                             <div style={{ width: '60px' }}>
-                                <img src="/icons/windows_vista/vista_pc_1.ico" alt="Profile" style={{ width: '100%' }} />
+                                <img src="./icons/windows_vista/vista_pc_1.ico" alt="Profile" style={{ width: '100%' }} />
                             </div>
                             <div>
                                 <h2 style={{ marginTop: 0, color: '#003399' }}>Nur Syafika Alya</h2>
@@ -444,7 +444,7 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                         <h3 className="section-title">Academic History</h3>
                         <hr />
                         <div className="xp-card">
-                            <div className="xp-card-icon"><img src="/icons/windows_vista/vista_book_2.ico" alt="Uni" /></div>
+                            <div className="xp-card-icon"><img src="./icons/windows_vista/vista_book_2.ico" alt="Uni" /></div>
                             <div className="xp-card-content">
                                 <h4>Bachelor of Information Systems (Hons.)</h4>
                                 <h5>Information Systems Engineering</h5>
@@ -452,7 +452,7 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                             </div>
                         </div>
                         <div className="xp-card">
-                            <div className="xp-card-icon"><img src="/icons/windows_vista/vista_firewall_status_2.ico" alt="Uni" /></div>
+                            <div className="xp-card-icon"><img src="./icons/windows_vista/vista_firewall_status_2.ico" alt="Uni" /></div>
                             <div className="xp-card-content">
                                 <h4>Diploma in Computer Science</h4>
                                 <p>UiTM Machang • Oct 2020 - March 2022</p>
@@ -466,7 +466,7 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                         <h3 className="section-title">Work Experience</h3>
                         <hr />
                         <div className="xp-card">
-                            <div className="xp-card-icon"><img src="/icons/utilities/explorer.ico" alt="Job" /></div>
+                            <div className="xp-card-icon"><img src="./icons/utilities/explorer.ico" alt="Job" /></div>
                             <div className="xp-card-content">
                                 <h4>Software Development Intern</h4>
                                 <h5>Global Entrepreneurship Research and Innovation Center (GERIC), UMK</h5>
@@ -481,14 +481,14 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                                     <strong>Skills:</strong> Laravel, Full-Stack Development, System Architecture, Graphic Design, Copyright (myIPO)
                                 </p>
                                 <button className="xp-button" style={{ marginTop: '10px', width: '100%', textAlign: 'left', display: 'flex', alignItems: 'center' }} onClick={() => setActiveTab('geric')}>
-                                    <img src="/icons/windows_vista/vista_sticky_notes.ico" style={{ width: '16px', marginRight: '5px' }} />
+                                    <img src="./icons/windows_vista/vista_sticky_notes.ico" style={{ width: '16px', marginRight: '5px' }} />
                                     View Complete Internship Details
                                 </button>
                             </div>
                         </div>
 
                         <div className="xp-card">
-                            <div className="xp-card-icon"><img src="/icons/windows_vista/vista_collab.ico" alt="Job" /></div>
+                            <div className="xp-card-icon"><img src="./icons/windows_vista/vista_collab.ico" alt="Job" /></div>
                             <div className="xp-card-content">
                                 <h4>Digital Product Seller</h4>
                                 <h5>Independent</h5>
@@ -505,7 +505,7 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                         </div>
 
                         <div className="xp-card">
-                            <div className="xp-card-icon"><img src="/icons/windows_vista/vista_netcenter.ico" alt="Job" /></div>
+                            <div className="xp-card-icon"><img src="./icons/windows_vista/vista_netcenter.ico" alt="Job" /></div>
                             <div className="xp-card-content">
                                 <h4>Affiliate Content Creator</h4>
                                 <h5>Independent</h5>
@@ -522,7 +522,7 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                         </div>
 
                         <div className="xp-card">
-                            <div className="xp-card-icon"><img src="/icons/windows_vista/vista_firewall_status_2.ico" alt="Job" /></div>
+                            <div className="xp-card-icon"><img src="./icons/windows_vista/vista_firewall_status_2.ico" alt="Job" /></div>
                             <div className="xp-card-content">
                                 <h4>Design & Development Intern</h4>
                                 <h5>Nikai Nego Trade, Kota Bharu, Kelantan</h5>
@@ -545,7 +545,7 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                     <div className="profile-section" style={{ padding: 0 }}>
                         <div className="geric-header-bar">
                             <div className="geric-header-title">
-                                <img src="/icons/windows_vista/vista_sticky_notes.ico" style={{ width: 16 }} />
+                                <img src="./icons/windows_vista/vista_sticky_notes.ico" style={{ width: 16 }} />
                                 FEATURED INTERNSHIP: GERIC UMK
                             </div>
                             <button className="xp-back-btn" onClick={() => setActiveTab('experience')}>Back to List</button>
@@ -607,7 +607,7 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                             {gericTab === 'system' && (
                                 <>
                                     <div className="xp-card" style={{ background: '#f9f9f9' }}>
-                                        <div className="xp-card-icon"><img src="/icons/windows_vista/vista_console.ico" alt="GIMS" /></div>
+                                        <div className="xp-card-icon"><img src="./icons/windows_vista/vista_console.ico" alt="GIMS" /></div>
                                         <div className="xp-card-content">
                                             <h4 style={{ fontSize: 16 }}>GIMS v12 (GERIC Integrated Management System)</h4>
                                             <p>Replaced legacy XAMPP setup with a modern, secure architecture to solve document tracking and reporting issues.</p>
@@ -645,7 +645,7 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                                             Intellectual Property
                                         </div>
                                         <div style={{ display: 'flex', alignItems: 'center', gap: 15 }}>
-                                            <img src="/icons/Windows XP Icons/Certificate.png" style={{ width: 32, height: 32 }} alt="Certificate" />
+                                            <img src="./icons/Windows XP Icons/Certificate.png" style={{ width: 32, height: 32 }} alt="Certificate" />
                                             <div>
                                                 <div style={{ fontFamily: 'Tahoma, sans-serif', fontWeight: 'bold', fontSize: 12, color: '#333', marginBottom: 2 }}>
                                                     myIPO Copyright Registered
@@ -669,7 +669,7 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                                     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 15, marginTop: 15 }}>
                                         <div className="xp-publication-card" style={{ textAlign: 'center' }}>
                                             <div style={{ height: 100, display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 10, background: '#f5f5f5', borderRadius: 4 }}>
-                                                <img src="/images/AENC.png" alt="AENC Logo" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                                                <img src="./images/AENC.png" alt="AENC Logo" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
                                             </div>
                                             <h4>AENC Branding</h4>
                                             <p style={{ fontSize: 11 }}>ASEAN Entrepreneurship Network Council</p>
@@ -677,7 +677,7 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                                         </div>
                                         <div className="xp-publication-card" style={{ textAlign: 'center' }}>
                                             <div style={{ height: 100, display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 10, background: '#f5f5f5', borderRadius: 4 }}>
-                                                <img src="/images/ICERI.png" alt="ICERI Logo" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                                                <img src="./images/ICERI.png" alt="ICERI Logo" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
                                             </div>
                                             <h4>ICERI 2026 Logo</h4>
                                             <p style={{ fontSize: 11 }}>Intl. Conference on Entrepreneurship</p>
@@ -789,7 +789,7 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                             {/* Programming */}
                             <div className="xp-card" style={{ marginBottom: 0, alignItems: 'flex-start' }}>
                                 <div className="xp-card-icon" style={{ marginTop: '5px' }}>
-                                    <img src="/icons/windows_vista/vista_console.ico" alt="Code" style={{ width: '32px', height: '32px' }} />
+                                    <img src="./icons/windows_vista/vista_console.ico" alt="Code" style={{ width: '32px', height: '32px' }} />
                                 </div>
                                 <div className="xp-card-content">
                                     <h4 style={{ marginBottom: '5px' }}>Programming</h4>
@@ -805,7 +805,7 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                             {/* Database & Tools */}
                             <div className="xp-card" style={{ marginBottom: 0, alignItems: 'flex-start' }}>
                                 <div className="xp-card-icon" style={{ marginTop: '5px' }}>
-                                    <img src="/icons/windows_vista/vista_perf_center.ico" alt="DB" style={{ width: '32px', height: '32px' }} />
+                                    <img src="./icons/windows_vista/vista_perf_center.ico" alt="DB" style={{ width: '32px', height: '32px' }} />
                                 </div>
                                 <div className="xp-card-content">
                                     <h4 style={{ marginBottom: '5px' }}>Database & Tools</h4>
@@ -821,7 +821,7 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                             {/* Design & Creative */}
                             <div className="xp-card" style={{ marginBottom: 0, alignItems: 'flex-start' }}>
                                 <div className="xp-card-icon" style={{ marginTop: '5px' }}>
-                                    <img src="/icons/windows_vista/vista_photo_gallery.ico" alt="Design" style={{ width: '32px', height: '32px' }} />
+                                    <img src="./icons/windows_vista/vista_photo_gallery.ico" alt="Design" style={{ width: '32px', height: '32px' }} />
                                 </div>
                                 <div className="xp-card-content">
                                     <h4 style={{ marginBottom: '5px' }}>Design & Creative</h4>
@@ -837,7 +837,7 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                             {/* AI & Analytics */}
                             <div className="xp-card" style={{ marginBottom: 0, alignItems: 'flex-start' }}>
                                 <div className="xp-card-icon" style={{ marginTop: '5px' }}>
-                                    <img src="/icons/windows_vista/vista_search_globe.ico" alt="AI" style={{ width: '32px', height: '32px' }} />
+                                    <img src="./icons/windows_vista/vista_search_globe.ico" alt="AI" style={{ width: '32px', height: '32px' }} />
                                 </div>
                                 <div className="xp-card-content">
                                     <h4 style={{ marginBottom: '5px' }}>AI & Analytics</h4>
@@ -853,7 +853,7 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                             {/* Methodologies */}
                             <div className="xp-card" style={{ marginBottom: 0, alignItems: 'flex-start' }}>
                                 <div className="xp-card-icon" style={{ marginTop: '5px' }}>
-                                    <img src="/icons/windows_vista/vista_book_3.ico" alt="Docs" style={{ width: '32px', height: '32px' }} />
+                                    <img src="./icons/windows_vista/vista_book_3.ico" alt="Docs" style={{ width: '32px', height: '32px' }} />
                                 </div>
                                 <div className="xp-card-content">
                                     <h4 style={{ marginBottom: '5px' }}>Methodologies</h4>
@@ -869,7 +869,7 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                             {/* Professional Skills */}
                             <div className="xp-card" style={{ marginBottom: 0, alignItems: 'flex-start' }}>
                                 <div className="xp-card-icon" style={{ marginTop: '5px' }}>
-                                    <img src="/icons/windows_vista/vista_collab.ico" alt="Pro" style={{ width: '32px', height: '32px' }} />
+                                    <img src="./icons/windows_vista/vista_collab.ico" alt="Pro" style={{ width: '32px', height: '32px' }} />
                                 </div>
                                 <div className="xp-card-content">
                                     <h4 style={{ marginBottom: '5px' }}>Professional Skills</h4>
@@ -885,7 +885,7 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                             {/* Languages */}
                             <div className="xp-card" style={{ marginBottom: 0, alignItems: 'flex-start' }}>
                                 <div className="xp-card-icon" style={{ marginTop: '5px' }}>
-                                    <img src="/icons/windows_vista/vista_accessibility.ico" alt="Lang" style={{ width: '32px', height: '32px' }} />
+                                    <img src="./icons/windows_vista/vista_accessibility.ico" alt="Lang" style={{ width: '32px', height: '32px' }} />
                                 </div>
                                 <div className="xp-card-content">
                                     <h4 style={{ marginBottom: '5px' }}>Languages</h4>
@@ -910,14 +910,14 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                             {/* IoT */}
                             <div className="xp-card" style={{ marginBottom: 0 }}>
                                 <div className="xp-card-icon">
-                                    <img src="/images/cisco.jpeg" alt="Cert" style={{ width: '40px', height: '40px', objectFit: 'cover', borderRadius: '3px', border: '1px solid #ddd' }} />
+                                    <img src="./images/cisco.jpeg" alt="Cert" style={{ width: '40px', height: '40px', objectFit: 'cover', borderRadius: '3px', border: '1px solid #ddd' }} />
                                 </div>
                                 <div className="xp-card-content" style={{ flex: 1 }}>
                                     <div style={{ float: 'right', display: 'flex', flexDirection: 'column', alignItems: 'flex-end' }}>
                                         <span style={{ background: '#4CAF50', color: 'white', padding: '2px 6px', borderRadius: '3px', fontSize: '10px', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '3px' }}>
                                             VERIFIED <span style={{ fontSize: '10px' }}>✓</span>
                                         </span>
-                                        <button className="xp-button" onClick={() => onOpenWindow({ title: 'IoT Certificate.jpg', content: 'image-viewer', width: 800, height: 600, data: { image: '/images/cisco.jpeg', title: 'Introduction to IoT' } })} style={{ marginTop: '5px', fontSize: '11px', padding: '3px 8px' }}>View Certificate</button>
+                                        <button className="xp-button" onClick={() => onOpenWindow({ title: 'IoT Certificate.jpg', content: 'image-viewer', width: 800, height: 600, data: { image: './images/cisco.jpeg', title: 'Introduction to IoT' } })} style={{ marginTop: '5px', fontSize: '11px', padding: '3px 8px' }}>View Certificate</button>
                                     </div>
                                     <h4 style={{ marginBottom: '2px', color: '#000' }}>Introduction to Internet of Things (IoT)</h4>
                                     <h5 style={{ fontWeight: 'normal', color: '#555', marginBottom: '2px' }}>Cisco Networking Academy</h5>
@@ -928,14 +928,14 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                             {/* Google UX */}
                             <div className="xp-card" style={{ marginBottom: 0 }}>
                                 <div className="xp-card-icon">
-                                    <img src="/images/google ux design.jpeg" alt="Cert" style={{ width: '40px', height: '40px', objectFit: 'cover', borderRadius: '3px', border: '1px solid #ddd' }} />
+                                    <img src="./images/google ux design.jpeg" alt="Cert" style={{ width: '40px', height: '40px', objectFit: 'cover', borderRadius: '3px', border: '1px solid #ddd' }} />
                                 </div>
                                 <div className="xp-card-content" style={{ flex: 1 }}>
                                     <div style={{ float: 'right', display: 'flex', flexDirection: 'column', alignItems: 'flex-end' }}>
                                         <span style={{ background: '#4CAF50', color: 'white', padding: '2px 6px', borderRadius: '3px', fontSize: '10px', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '3px' }}>
                                             VERIFIED <span style={{ fontSize: '10px' }}>✓</span>
                                         </span>
-                                        <button className="xp-button" onClick={() => onOpenWindow({ title: 'Google UX.crt', content: 'image-viewer', width: 800, height: 600, data: { image: '/images/google ux design.jpeg', title: 'Google UX Design' } })} style={{ marginTop: '5px', fontSize: '11px', padding: '3px 8px' }}>View Certificate</button>
+                                        <button className="xp-button" onClick={() => onOpenWindow({ title: 'Google UX.crt', content: 'image-viewer', width: 800, height: 600, data: { image: './images/google ux design.jpeg', title: 'Google UX Design' } })} style={{ marginTop: '5px', fontSize: '11px', padding: '3px 8px' }}>View Certificate</button>
                                     </div>
                                     <h4 style={{ marginBottom: '2px', color: '#000' }}>Google User Experience (UX) Design Specialization</h4>
                                     <h5 style={{ fontWeight: 'normal', color: '#555', marginBottom: '2px' }}>Coursera</h5>
@@ -946,14 +946,14 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                             {/* Data Analysis */}
                             <div className="xp-card" style={{ marginBottom: 0 }}>
                                 <div className="xp-card-icon">
-                                    <img src="/images/data analysis.jpg" alt="Cert" style={{ width: '40px', height: '40px', objectFit: 'cover', borderRadius: '3px', border: '1px solid #ddd' }} />
+                                    <img src="./images/data analysis.jpg" alt="Cert" style={{ width: '40px', height: '40px', objectFit: 'cover', borderRadius: '3px', border: '1px solid #ddd' }} />
                                 </div>
                                 <div className="xp-card-content" style={{ flex: 1 }}>
                                     <div style={{ float: 'right', display: 'flex', flexDirection: 'column', alignItems: 'flex-end' }}>
                                         <span style={{ background: '#4CAF50', color: 'white', padding: '2px 6px', borderRadius: '3px', fontSize: '10px', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '3px' }}>
                                             VERIFIED <span style={{ fontSize: '10px' }}>✓</span>
                                         </span>
-                                        <button className="xp-button" onClick={() => onOpenWindow({ title: 'Data Analysis.crt', content: 'image-viewer', width: 800, height: 600, data: { image: '/images/data analysis.jpg', title: 'Data Analysis' } })} style={{ marginTop: '5px', fontSize: '11px', padding: '3px 8px' }}>View Certificate</button>
+                                        <button className="xp-button" onClick={() => onOpenWindow({ title: 'Data Analysis.crt', content: 'image-viewer', width: 800, height: 600, data: { image: './images/data analysis.jpg', title: 'Data Analysis' } })} style={{ marginTop: '5px', fontSize: '11px', padding: '3px 8px' }}>View Certificate</button>
                                     </div>
                                     <h4 style={{ marginBottom: '2px', color: '#000' }}>Career Essentials in Data Analysis</h4>
                                     <h5 style={{ fontWeight: 'normal', color: '#555', marginBottom: '2px' }}>Microsoft and LinkedIn</h5>
@@ -964,14 +964,14 @@ const ProfileExplorer = ({ onOpenWindow }) => {
                             {/* MyIPO */}
                             <div className="xp-card" style={{ marginBottom: 0 }}>
                                 <div className="xp-card-icon">
-                                    <img src="/images/copyright.png" alt="Cert" style={{ width: '40px', height: '40px', objectFit: 'cover', borderRadius: '3px', border: '1px solid #ddd' }} />
+                                    <img src="./images/copyright.png" alt="Cert" style={{ width: '40px', height: '40px', objectFit: 'cover', borderRadius: '3px', border: '1px solid #ddd' }} />
                                 </div>
                                 <div className="xp-card-content" style={{ flex: 1 }}>
                                     <div style={{ float: 'right', display: 'flex', flexDirection: 'column', alignItems: 'flex-end' }}>
                                         <span style={{ background: '#4CAF50', color: 'white', padding: '2px 6px', borderRadius: '3px', fontSize: '10px', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '3px' }}>
                                             VERIFIED <span style={{ fontSize: '10px' }}>✓</span>
                                         </span>
-                                        <button className="xp-button" onClick={() => onOpenWindow({ title: 'myIPO Copyright.crt', content: 'image-viewer', width: 800, height: 600, data: { image: '/images/copyright.png', title: 'Copyright Registration' } })} style={{ marginTop: '5px', fontSize: '11px', padding: '3px 8px' }}>View Certificate</button>
+                                        <button className="xp-button" onClick={() => onOpenWindow({ title: 'myIPO Copyright.crt', content: 'image-viewer', width: 800, height: 600, data: { image: './images/copyright.png', title: 'Copyright Registration' } })} style={{ marginTop: '5px', fontSize: '11px', padding: '3px 8px' }}>View Certificate</button>
                                     </div>
                                     <h4 style={{ marginBottom: '2px', color: '#000' }}>Certificate of Notification of Copyright</h4>
                                     <h5 style={{ fontWeight: 'normal', color: '#555', marginBottom: '2px' }}>MyIPO Malaysia</h5>
@@ -1010,10 +1010,10 @@ const ProjectsExplorer = ({ onOpenWindow, onLink }) => {
     });
 
     const sidebarItems = [
-        { id: 'All', label: 'All', icon: '/icons/Windows XP Icons/Search Results.png' },
-        { id: 'Systems', label: 'Systems', icon: '/icons/Windows XP Icons/My Computer.png' },
-        { id: 'UI/UX', label: 'UI/UX', icon: '/icons/Windows XP Icons/Paint.png' },
-        { id: 'AI/Data', label: 'AI/Data', icon: '/icons/Windows XP Icons/Performance.png' }
+        { id: 'All', label: 'All', icon: './icons/Windows XP Icons/Search Results.png' },
+        { id: 'Systems', label: 'Systems', icon: './icons/Windows XP Icons/My Computer.png' },
+        { id: 'UI/UX', label: 'UI/UX', icon: './icons/Windows XP Icons/Paint.png' },
+        { id: 'AI/Data', label: 'AI/Data', icon: './icons/Windows XP Icons/Performance.png' }
     ];
 
     return (
@@ -1023,7 +1023,7 @@ const ProjectsExplorer = ({ onOpenWindow, onLink }) => {
             <div style={{ height: '56px', display: 'flex', alignItems: 'center', padding: '0 16px', justifyContent: 'space-between', background: '#0f0f0f', borderBottom: '1px solid #222', flexShrink: 0 }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '5px', cursor: 'pointer' }} onClick={() => { setView('grid'); setFilterCategory('All'); }}>
                     <div style={{ background: 'red', borderRadius: '50%', width: '32px', height: '32px', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
-                        <img src="/icons/Windows XP Icons/Play.png" style={{ width: '20px', height: '20px', filter: 'brightness(0) invert(1)' }} alt="YT" />
+                        <img src="./icons/Windows XP Icons/Play.png" style={{ width: '20px', height: '20px', filter: 'brightness(0) invert(1)' }} alt="YT" />
                     </div>
                     <h2 style={{ margin: 0, fontSize: '1.2rem', letterSpacing: '-1px', color: '#fff' }}>MyProjects</h2>
                 </div>
@@ -1050,14 +1050,14 @@ const ProjectsExplorer = ({ onOpenWindow, onLink }) => {
                         alignItems: 'center',
                         justifyContent: 'center'
                     }}>
-                        <img src="/icons/Windows XP Icons/Search.png" style={{ width: '16px', filter: 'invert(0.7)' }} alt="Search" />
+                        <img src="./icons/Windows XP Icons/Search.png" style={{ width: '16px', filter: 'invert(0.7)' }} alt="Search" />
                     </button>
                 </div>
 
                 <div style={{ display: 'flex', gap: '15px', alignItems: 'center' }}>
-                    <img src="/icons/communication/wlm.ico" style={{ width: 24, cursor: 'pointer' }} title="Chat" />
-                    <img src="/icons/windows_vista/vista_sidebar_1.ico" style={{ width: 24, cursor: 'pointer' }} title="Apps" />
-                    <img src="/icons/windows_vista/vista_pc_1.ico" style={{ width: 32, borderRadius: '50%', background: '#333', padding: '2px', cursor: 'pointer' }} />
+                    <img src="./icons/communication/wlm.ico" style={{ width: 24, cursor: 'pointer' }} title="Chat" />
+                    <img src="./icons/windows_vista/vista_sidebar_1.ico" style={{ width: 24, cursor: 'pointer' }} title="Apps" />
+                    <img src="./icons/windows_vista/vista_pc_1.ico" style={{ width: 32, borderRadius: '50%', background: '#333', padding: '2px', cursor: 'pointer' }} />
                 </div>
             </div>
 
@@ -1165,7 +1165,7 @@ const ProjectsExplorer = ({ onOpenWindow, onLink }) => {
 
                                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid #333', paddingBottom: '12px', marginBottom: '12px' }}>
                                     <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                                        <img src="/icons/windows_vista/vista_pc_1.ico" style={{ width: 40, height: 40, borderRadius: '50%', background: '#333' }} />
+                                        <img src="./icons/windows_vista/vista_pc_1.ico" style={{ width: 40, height: 40, borderRadius: '50%', background: '#333' }} />
                                         <div>
                                             <div style={{ fontWeight: 'bold', color: '#fff' }}>Nur Syafika Alya</div>
                                             <div style={{ fontSize: '0.8rem', color: '#aaa' }}>3.7K subscribers</div>
@@ -1285,12 +1285,12 @@ const ImageViewer = ({ data }) => {
                 justifyContent: 'center',
                 gap: '15px'
             }}>
-                <button className="xp-footer-btn" title="Previous" style={{ border: '1px solid transparent', background: 'none', cursor: 'pointer', padding: '4px' }}><img src="/icons/Windows XP Icons/Back.png" style={{ width: 24, height: 24 }} /></button>
-                <button className="xp-footer-btn" title="Next" style={{ border: '1px solid transparent', background: 'none', cursor: 'pointer', padding: '4px' }}><img src="/icons/Windows XP Icons/Forward.png" style={{ width: 24, height: 24 }} /></button>
+                <button className="xp-footer-btn" title="Previous" style={{ border: '1px solid transparent', background: 'none', cursor: 'pointer', padding: '4px' }}><img src="./icons/Windows XP Icons/Back.png" style={{ width: 24, height: 24 }} /></button>
+                <button className="xp-footer-btn" title="Next" style={{ border: '1px solid transparent', background: 'none', cursor: 'pointer', padding: '4px' }}><img src="./icons/Windows XP Icons/Forward.png" style={{ width: 24, height: 24 }} /></button>
                 <div style={{ width: '2px', borderRight: '1px solid #bfbfbf', height: '30px', margin: '0 5px' }}></div>
-                <button className="xp-footer-btn" title="Zoom In" style={{ border: '1px solid transparent', background: 'none', cursor: 'pointer', padding: '4px' }}><img src="/icons/Windows XP Icons/Search.png" style={{ width: 24, height: 24 }} /></button>
-                <button className="xp-footer-btn" title="Save" style={{ border: '1px solid transparent', background: 'none', cursor: 'pointer', padding: '4px' }}><img src="/icons/Windows XP Icons/Save.png" style={{ width: 24, height: 24 }} /></button>
-                <button className="xp-footer-btn" title="Print" style={{ border: '1px solid transparent', background: 'none', cursor: 'pointer', padding: '4px' }}><img src="/icons/Windows XP Icons/Printer.png" style={{ width: 24, height: 24 }} /></button>
+                <button className="xp-footer-btn" title="Zoom In" style={{ border: '1px solid transparent', background: 'none', cursor: 'pointer', padding: '4px' }}><img src="./icons/Windows XP Icons/Search.png" style={{ width: 24, height: 24 }} /></button>
+                <button className="xp-footer-btn" title="Save" style={{ border: '1px solid transparent', background: 'none', cursor: 'pointer', padding: '4px' }}><img src="./icons/Windows XP Icons/Save.png" style={{ width: 24, height: 24 }} /></button>
+                <button className="xp-footer-btn" title="Print" style={{ border: '1px solid transparent', background: 'none', cursor: 'pointer', padding: '4px' }}><img src="./icons/Windows XP Icons/Printer.png" style={{ width: 24, height: 24 }} /></button>
             </div>
         </div>
     );
@@ -1328,7 +1328,7 @@ const Notepad = ({ content }) => {
 
 const ResumeViewer = ({ data, onOpenWindow }) => {
     const [zoom, setZoom] = useState(100);
-    const pdfUrl = data?.image || '/images/RESUME%20NUR%20SYAFIKA%20ALYA%20(1).pdf';
+    const pdfUrl = data?.image || './images/RESUME%20NUR%20SYAFIKA%20ALYA%20(1).pdf';
 
     const handleZoom = () => {
         setZoom(prev => prev >= 150 ? 100 : prev + 25);
@@ -1367,7 +1367,7 @@ const ResumeViewer = ({ data, onOpenWindow }) => {
                     display: 'flex', alignItems: 'center', gap: '5px',
                     background: 'none', border: 'none', cursor: 'pointer', color: '#000', fontSize: '12px'
                 }}>
-                    <img src="/icons/Windows XP Icons/Search.png" style={{ width: 24, height: 24 }} />
+                    <img src="./icons/Windows XP Icons/Search.png" style={{ width: 24, height: 24 }} />
                     Zoom
                 </button>
 
@@ -1377,7 +1377,7 @@ const ResumeViewer = ({ data, onOpenWindow }) => {
                     display: 'flex', alignItems: 'center', gap: '5px',
                     background: 'none', border: 'none', cursor: 'pointer', color: '#000', fontSize: '12px'
                 }}>
-                    <img src="/icons/Windows XP Icons/Save.png" style={{ width: 24, height: 24 }} />
+                    <img src="./icons/Windows XP Icons/Save.png" style={{ width: 24, height: 24 }} />
                     Save
                 </button>
 
@@ -1387,7 +1387,7 @@ const ResumeViewer = ({ data, onOpenWindow }) => {
                     display: 'flex', alignItems: 'center', gap: '5px',
                     background: 'none', border: 'none', cursor: 'pointer', color: '#000', fontSize: '12px'
                 }}>
-                    <img src="/icons/Windows XP Icons/Printer.png" style={{ width: 24, height: 24 }} />
+                    <img src="./icons/Windows XP Icons/Printer.png" style={{ width: 24, height: 24 }} />
                     Print
                 </button>
 
@@ -1397,12 +1397,12 @@ const ResumeViewer = ({ data, onOpenWindow }) => {
                     display: 'flex', alignItems: 'center', gap: '5px',
                     background: 'none', border: 'none', cursor: 'pointer', color: '#000', fontSize: '12px'
                 }}>
-                    <img src="/icons/Windows XP Icons/OE Reply.png" style={{ width: 24, height: 24 }} />
+                    <img src="./icons/Windows XP Icons/OE Reply.png" style={{ width: 24, height: 24 }} />
                     Contact Me
                 </button>
             </div>
 
-            <div style={{ flex: 1, position: 'relative', overflow: 'auto', padding: '20px', display: 'flex', justifyContent: 'center', background: 'url(/images/grid_bg.png) repeat, #525659' }}>
+            <div style={{ flex: 1, position: 'relative', overflow: 'auto', padding: '20px', display: 'flex', justifyContent: 'center', background: 'url(./images/grid_bg.png) repeat, #525659' }}>
                 <iframe
                     id="resume-pdf-iframe"
                     src={`${pdfUrl}#view=FitH`}
@@ -1592,11 +1592,11 @@ const WindowContent = ({ type, onOpenWindow, data, onLink }) => {
                     </div>
                     <div className="xp-task-content">
                         <a href="#" className="task-link">
-                            <img src="/icons/utilities/explorer.ico" alt="" />
+                            <img src="./icons/utilities/explorer.ico" alt="" />
                             <span>View details</span>
                         </a>
                         <a href="#" className="task-link">
-                            <img src="/icons/windows_vista/vista_netcenter.ico" alt="" />
+                            <img src="./icons/windows_vista/vista_netcenter.ico" alt="" />
                             <span>Share this folder</span>
                         </a>
                     </div>
@@ -1609,15 +1609,15 @@ const WindowContent = ({ type, onOpenWindow, data, onLink }) => {
                     </div>
                     <div className="xp-task-content">
                         <a href="#" className="task-link">
-                            <img src="/icons/utilities/explorer.ico" alt="" />
+                            <img src="./icons/utilities/explorer.ico" alt="" />
                             <span>My Computer</span>
                         </a>
                         <a href="#" className="task-link">
-                            <img src="/icons/windows_vista/vista_book_1.ico" alt="" />
+                            <img src="./icons/windows_vista/vista_book_1.ico" alt="" />
                             <span>My Documents</span>
                         </a>
                         <a href="#" className="task-link">
-                            <img src="/icons/windows_vista/vista_netcenter.ico" alt="" />
+                            <img src="./icons/windows_vista/vista_netcenter.ico" alt="" />
                             <span>My Network Places</span>
                         </a>
                     </div>
@@ -1639,7 +1639,7 @@ const WindowContent = ({ type, onOpenWindow, data, onLink }) => {
                     <hr />
                     <div style={{ textAlign: 'center', marginBottom: '20px' }}>
                         <a
-                            href="/images/RESUME NUR SYAFIKA ALYA (1).pdf"
+                            href="./images/RESUME NUR SYAFIKA ALYA (1).pdf"
                             target="_blank"
                             rel="noreferrer"
                             style={{
@@ -1662,20 +1662,20 @@ const WindowContent = ({ type, onOpenWindow, data, onLink }) => {
         )),
         contact: renderXPFolder('Communication', 'contact', (
             <div className="folder-content">
-                <a href="mailto:syafikaalya10@gmail.com" onClick={(e) => { e.preventDefault(); onLink && onLink({ url: 'mailto:syafikaalya10@gmail.com', title: 'Email Me', icon: '/icons/communication/wlm.ico' }); }} className="folder-item" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
-                    <img src="/icons/communication/wlm.ico" alt="Email" />
+                <a href="mailto:syafikaalya10@gmail.com" onClick={(e) => { e.preventDefault(); onLink && onLink({ url: 'mailto:syafikaalya10@gmail.com', title: 'Email Me', icon: './icons/communication/wlm.ico' }); }} className="folder-item" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
+                    <img src="./icons/communication/wlm.ico" alt="Email" />
                     <span>Email Me</span>
                 </a>
-                <a href="https://github.com/alyasy07" onClick={(e) => { e.preventDefault(); onLink && onLink({ url: 'https://github.com/alyasy07', title: 'GitHub', icon: '/images/github.png' }); }} className="folder-item" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
-                    <img src="/images/github.png" alt="GitHub" />
+                <a href="https://github.com/alyasy07" onClick={(e) => { e.preventDefault(); onLink && onLink({ url: 'https://github.com/alyasy07', title: 'GitHub', icon: './images/github.png' }); }} className="folder-item" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
+                    <img src="./images/github.png" alt="GitHub" />
                     <span>GitHub</span>
                 </a>
-                <a href="https://www.linkedin.com/in/syafika-zamri/" onClick={(e) => { e.preventDefault(); onLink && onLink({ url: 'https://www.linkedin.com/in/syafika-zamri/', title: 'LinkedIn', icon: '/images/linkedin.png' }); }} className="folder-item" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
-                    <img src="/images/linkedin.png" alt="LinkedIn" />
+                <a href="https://www.linkedin.com/in/syafika-zamri/" onClick={(e) => { e.preventDefault(); onLink && onLink({ url: 'https://www.linkedin.com/in/syafika-zamri/', title: 'LinkedIn', icon: './images/linkedin.png' }); }} className="folder-item" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
+                    <img src="./images/linkedin.png" alt="LinkedIn" />
                     <span>LinkedIn</span>
                 </a>
                 <div className="folder-item">
-                    <img src="/images/phone.png" alt="Phone" />
+                    <img src="./images/phone.png" alt="Phone" />
                     <span>011-59593965</span>
                 </div>
             </div>
@@ -1683,11 +1683,11 @@ const WindowContent = ({ type, onOpenWindow, data, onLink }) => {
         recycle: renderXPFolder('Recycle Bin', 'recycle', (
             <div className="folder-content">
                 <div className="folder-item">
-                    <img src="/icons/windows_vista/vista_sticky_notes.ico" alt="File" />
+                    <img src="./icons/windows_vista/vista_sticky_notes.ico" alt="File" />
                     <span>bad-idea.txt</span>
                 </div>
                 <div className="folder-item">
-                    <img src="/icons/utilities/trashbin1.ico" alt="File" />
+                    <img src="./icons/utilities/trashbin1.ico" alt="File" />
                     <span>old_design.png</span>
                 </div>
             </div>

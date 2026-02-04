@@ -43,10 +43,10 @@ function Taskbar({ windows, onStartClick, onWindowClick, onOpenWindow }) {
       </div>
 
       <div className="system-tray">
-        <img src="/icons/Windows XP Icons/Volume.png" alt="Volume" className="tray-icon" style={{ marginRight: '8px' }} />
-        <img src="/icons/Windows XP Icons/Wireless Network Connection.png" alt="Network" className="tray-icon" style={{ marginRight: '8px' }} />
+        <img src="./icons/Windows XP Icons/Volume.png" alt="Volume" className="tray-icon" style={{ marginRight: '8px' }} />
+        <img src="./icons/Windows XP Icons/Wireless Network Connection.png" alt="Network" className="tray-icon" style={{ marginRight: '8px' }} />
         <img
-          src="/icons/Windows XP Icons/Information.png"
+          src="./icons/Windows XP Icons/Information.png"
           alt="Info"
           className="tray-icon"
           style={{ marginRight: '8px' }}

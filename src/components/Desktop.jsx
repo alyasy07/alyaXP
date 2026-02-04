@@ -7,13 +7,13 @@ function Desktop({ windows, onOpenWindow, onCloseWindow, onMinimizeWindow, onFoc
     {
       id: 'about',
       title: 'About Me',
-      icon: '/icons/utilities/explorer.ico', // Replaced with local icon
+      icon: './icons/utilities/explorer.ico', // Replaced with local icon
       content: 'about'
     },
     {
       id: 'projects',
       title: 'My Projects',
-      icon: '/icons/browsers/ie1.ico', // Replaced with local icon
+      icon: './icons/browsers/ie1.ico', // Replaced with local icon
       content: 'projects',
       width: 800,
       height: 600
@@ -21,7 +21,7 @@ function Desktop({ windows, onOpenWindow, onCloseWindow, onMinimizeWindow, onFoc
     {
       id: 'paint',
       title: 'Paint',
-      icon: '/icons/Windows XP Icons/Paint.png', // Updated to correct Paint icon
+      icon: './icons/Windows XP Icons/Paint.png', // Updated to correct Paint icon
       content: 'paint',
       width: 800,
       height: 600
@@ -29,19 +29,19 @@ function Desktop({ windows, onOpenWindow, onCloseWindow, onMinimizeWindow, onFoc
     {
       id: 'resume',
       title: 'Resume',
-      icon: '/icons/windows_vista/vista_sticky_notes.ico', // Using sticky notes as resume
+      icon: './icons/windows_vista/vista_sticky_notes.ico', // Using sticky notes as resume
       content: 'resume'
     },
     {
       id: 'contact',
       title: 'Contact',
-      icon: '/icons/communication/wlm1.ico', // Using messenger for contact
+      icon: './icons/communication/wlm1.ico', // Using messenger for contact
       content: 'contact'
     },
     {
       id: 'recycle',
       title: 'Recycle Bin',
-      icon: '/icons/utilities/trashbin1.ico', // Replaced with local icon
+      icon: './icons/utilities/trashbin1.ico', // Replaced with local icon
       content: 'recycle'
     }
   ];

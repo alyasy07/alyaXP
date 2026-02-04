@@ -87,22 +87,22 @@ function Window({ id, title, content, width, height, x, y, zIndex, onClose, onMi
               {!isImageViewer && (
                 <div className="toolbar-buttons">
                   <div className="toolbar-btn disabled">
-                    <img src="/icons/Windows XP Icons/Back.png" alt="Back" />
+                    <img src="./icons/Windows XP Icons/Back.png" alt="Back" />
                     <span>Back</span>
                   </div>
                   <div className="toolbar-btn disabled">
-                    <img src="/icons/Windows XP Icons/Forward.png" alt="Forward" />
+                    <img src="./icons/Windows XP Icons/Forward.png" alt="Forward" />
                   </div>
                   <div className="toolbar-btn">
-                    <img src="/icons/utilities/explorer.ico" alt="Up" style={{ width: 18, height: 18 }} />
+                    <img src="./icons/utilities/explorer.ico" alt="Up" style={{ width: 18, height: 18 }} />
                   </div>
                   <div className="toolbar-separator" />
                   <div className="toolbar-btn">
-                    <img src="/icons/Windows XP Icons/Search.png" alt="Search" />
+                    <img src="./icons/Windows XP Icons/Search.png" alt="Search" />
                     <span>Search</span>
                   </div>
                   <div className="toolbar-btn">
-                    <img src="/icons/utilities/explorer.ico" alt="Folders" />
+                    <img src="./icons/utilities/explorer.ico" alt="Folders" />
                     <span>Folders</span>
                   </div>
                 </div>
@@ -111,7 +111,7 @@ function Window({ id, title, content, width, height, x, y, zIndex, onClose, onMi
               <div className="address-bar">
                 <span className="address-label">Address</span>
                 <div className="address-input-wrapper">
-                  <img src="/icons/utilities/explorer.ico" alt="icon" className="address-icon" />
+                  <img src="./icons/utilities/explorer.ico" alt="icon" className="address-icon" />
                   <input type="text" readOnly value={`C:\\Desktop\\${title}`} className="address-input" />
                   <button className="go-button">Go</button>
                 </div>
