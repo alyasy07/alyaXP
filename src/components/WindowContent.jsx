@@ -264,28 +264,13 @@ The project successfully identified Physical Health and Body Image as the primar
         title: 'Sentiment Analysis',
         category: 'Data',
         desc: 'Roblox User Reviews',
-        fullDesc: `Executive Summary:
-This project involved a comprehensive sentiment analysis of Roblox user reviews from the Google Play Store to identify user satisfaction and common technical concerns. I executed the full data science lifecycle, from automated web scraping to deploying machine learning models for predictive analysis.
+        fullDesc: `<p><strong>Executive Summary:</strong><br/>Comprehensive sentiment analysis of Roblox user reviews from the Google Play Store to identify user satisfaction and technical concerns. Executed the full data science lifecycle from scraping to predictive modeling.</p>
 
-Technical Implementation:
-• Data Scraping: Developed a Python script using the google-play-scraper library to extract 1,417 unique user reviews from the Google Play Store.
-• Data Pre-processing: Utilized RapidMiner (AI Studio) to perform data cleaning, including duplicate removal and filtering missing values to ensure dataset reliability.
-• NLP Pipeline: Implemented text mining techniques including Tokenization, Stopwords Removal, and Case Transformation to prepare raw text for analysis.
-• Class Imbalance Handling: Applied SMOTE (Synthetic Minority Oversampling Technique) to balance the dataset, ensuring the model could accurately predict both positive and negative sentiments.
-
-Machine Learning & Results:
-• Model Comparison: Evaluated and compared three machine learning models: Naive Bayes, Random Forest, and Support Vector Machine (SVM).
-• Top Performance: The SVM model achieved the highest accuracy of 82.93%, making it the primary model for predicting user sentiment trends.
-• Business Insights: The analysis successfully identified key areas for improvement, specifically regarding app performance, safety risks, and in-app purchase satisfaction.
-
-Key Technical Stack:
-• Python (google-play-scraper) - Data Collection
-• RapidMiner (AI Studio) - ML Pipeline & Processing
-• SMOTE - Data Balancing
-• Naive Bayes, Random Forest, SVM - Model Comparison
-
-Outcome:
-The project provides Roblox developers with actionable, data-driven insights into user sentiment patterns, enabling targeted improvements in app performance, user safety features, and monetization strategies.
+<p><strong>Technical Implementation:</strong><br/>
+• <strong>Data Scraping:</strong> Extracted 1,417 reviews using <code>google-play-scraper</code>.<br/>
+• <strong>Preprocessing:</strong> Used RapidMiner for cleaning and SMOTE for class imbalance handling.<br/>
+• <strong>NLP Pipeline:</strong> Tokenization, Stopwords Removal, and Case Transformation.<br/>
+• <strong>Modeling:</strong> Compared Naive Bayes, Random Forest, and SVM. SVM achieved the highest accuracy (82.93%).</p>
 
 <div style='margin-top: 20px;'><a href='https://www.figma.com/deck/z8k1ZbN4bbsd73bNMwrMoF/roblox-sentiment-analysis?node-id=1-223&t=YOtERLKQdIKz2WmI-1' target='_blank' class='yt-desc-link'><img src='./icons/windows_vista/vista_perf_center.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> View Evidence & Results</a></div>`,
         tech: 'Python • RapidMiner • SVM',
@@ -297,55 +282,67 @@ The project provides Roblox developers with actionable, data-driven insights int
         title: 'FocusGrow',
         category: 'UI/UX',
         desc: 'Study Focus & Productivity',
-        fullDesc: `Project Overview:
-FocusGrow is a high-fidelity prototype study focus and productivity web application I built to practice front-end development skills and experiment with modern deployment workflows. This project emphasizes clean UI, responsive layout, and client-side JavaScript for interactivity, while also exploring CI/CD through Vercel deployment.
+        fullDesc: `<p><strong>Project Overview:</strong><br/>FocusGrow is a study focus and productivity web application designed to practice front-end development and CI/CD workflows.</p>
 
-What I Built:
-A study focus and productivity web app demonstrating:
-• Responsive UI built with HTML and CSS
-• Interactive client-side logic in JavaScript for focus sessions and task management
-• Audio integration for study focus features (my first time integrating audio in a project)
-• Small backend/automation experimentation (Python / Batchfile contributions)
-• Deployment and hosting experiments using Vercel
-• Features to help users maintain focus during study sessions
+<p><strong>Key Features:</strong><br/>
+• <strong>Focus Sessions:</strong> Interactive timer and task management using client-side JavaScript.<br/>
+• <strong>Audio Int.:</strong> Background ambience integration for study focus.<br/>
+• <strong>Design:</strong> Responsive UI built with semantic HTML and CSS.<br/>
+• <strong>Deployment:</strong> Automated CI/CD pipeline via Vercel.</p>
 
-Tech Stack (Repository Language Composition):
-• JavaScript - 42% (main interactive logic)
-• CSS - 33% (visuals & responsive layout)
-• HTML - 23.1% (structure & accessibility)
-• Python - 1.7% (scripts/utilities)
-• Batchfile - 0.2% (automation)
-
-What I Practiced & Learned:
-• Building a responsive and accessible UI with semantic HTML & CSS
-• Managing state and UI interactions in vanilla JavaScript
-• Integrating audio elements for enhanced user experience
-• Debugging and iterating quickly through local dev to live deployment
-• Deploying static/web projects on Vercel and troubleshooting deployment configs
-• Basic build/automation scripting using Python / Batchfile
-
-Why It's in My Portfolio:
-• Demonstrates practical front-end skills and an understanding of the full flow from local development to a live deployment
-• Shows willingness to experiment with hosting and CI/CD (Vercel)
-• First hands-on experience with audio integration in web development
-• A focused, self-contained project good for interview walkthroughs or quick demos
-
-Project Status:
-This is a high-fidelity prototype created for learning and skill development purposes. The project showcases my ability to build functional, responsive web applications and deploy them to production environments.
-
-Next Steps / Potential Improvements:
-• Add unit / integration tests for core UI logic
-• Add accessibility refinements (aria attributes, keyboard navigation)
-• Add persistent storage (localStorage or small backend) for sessions/tasks
-• Improve CI/CD: automatic preview deployments and testing on PRs
-• Add analytics or insights for user sessions
+<p><strong>Tech Stack:</strong> JavaScript (42%), CSS (33%), HTML (23%).</p>
 
 <div style='margin-top: 20px;'><a href='https://focus-grow-eta.vercel.app' target='_blank' class='yt-desc-link'><img src='./icons/windows_vista/vista_netcenter.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> View Live Demo</a></div>`,
         tech: 'React • Vercel',
-        icon: 'clock', image: './icons/windows_vista/vista_cal_1.ico',
+        image: './icons/windows_vista/vista_cal_1.ico',
         link: 'https://focus-grow-eta.vercel.app'
     }
 ];
+
+const funProjects = [
+    {
+        id: 'xp-portfolio',
+        title: "Windows XP Portfolio",
+        desc: "This website! Frutiger Aero inspired portfolio.",
+        link: "https://github.com/alyasy07/alyaXP",
+        icon: "./icons/windows_vista/vista_pc_1.ico",
+        category: "Productivity",
+        rating: 4.8,
+        reviews: 1205
+    },
+    {
+        id: 'im-with-you',
+        title: "I'm With You",
+        desc: "A heartfelt clone of sendthesong.xyz.",
+        link: "https://im-with-you-production.up.railway.app/",
+        icon: "./icons/windows_vista/vista_movie.ico",
+        category: "Entertainment",
+        rating: 4.5,
+        reviews: 89
+    },
+    {
+        id: 'yves-archive',
+        title: "Yves Archive",
+        desc: "Online wardrobe & Telegram Bot integration.",
+        link: "#",
+        icon: "./icons/windows_vista/vista_photo_gallery.ico",
+        category: "Lifestyle",
+        rating: 4.9,
+        reviews: 42
+    }
+];
+
+// Helper to render stars
+const renderStars = (rating) => {
+    return (
+        <div className="ms-app-rating">
+            {[...Array(5)].map((_, i) => (
+                <span key={i} className="ms-star" style={{ color: i < Math.floor(rating) ? '#fca103' : '#ddd' }}>★</span>
+            ))}
+            <span style={{ marginLeft: '4px', color: '#666' }}>{rating}</span>
+        </div>
+    );
+};
 
 // Internal Component for the "About Me" Profile Explorer
 const ProfileExplorer = ({ onOpenWindow }) => {
@@ -1548,6 +1545,135 @@ const CommandPrompt = () => {
     );
 };
 
+const ProjectStore = ({ onLink }) => {
+    const [selectedApp, setSelectedApp] = useState(null);
+
+    const handleOpenLink = (project) => {
+        if (!project.link || project.link === '#') return;
+
+        onLink && onLink({
+            url: project.link,
+            title: project.title,
+            icon: "./icons/Windows XP Icons/Internet Explorer 6.png"
+        });
+    };
+
+    if (selectedApp) {
+        return (
+            <div className="ms-store-container">
+                <div className="ms-store-header">
+                    <button className="xp-back-btn" onClick={() => setSelectedApp(null)} style={{ color: '#000', border: '1px solid #ccc' }}>
+                        ← Back
+                    </button>
+                    <div style={{ fontWeight: 'bold' }}>{selectedApp.title}</div>
+                    <div style={{ width: 50 }}></div>
+                </div>
+                <div className="ms-store-content" style={{ padding: '40px' }}>
+                    <div style={{ display: 'flex', gap: '20px', marginBottom: '30px' }}>
+                        <div style={{ width: 100, height: 100, background: '#f9f9f9', borderRadius: 16, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                            <img src={selectedApp.icon} style={{ width: 80, height: 80 }} />
+                        </div>
+                        <div>
+                            <h1 style={{ margin: '0 0 10px 0', fontSize: '24px' }}>{selectedApp.title}</h1>
+                            <div style={{ color: '#666', marginBottom: '10px' }}>{selectedApp.category} • {renderStars(selectedApp.rating)}</div>
+                            <button
+                                className="ms-get-btn primary"
+                                style={{ padding: '8px 25px', fontSize: '14px' }}
+                                onClick={() => handleOpenLink(selectedApp)}
+                            >
+                                Get
+                            </button>
+                        </div>
+                    </div>
+
+                    <div style={{ borderTop: '1px solid #eee', paddingTop: '20px' }}>
+                        <h3 style={{ margin: '0 0 10px 0' }}>Description</h3>
+                        <p style={{ lineHeight: '1.6', color: '#333' }}>{selectedApp.desc}</p>
+                        <p style={{ lineHeight: '1.6', color: '#555', marginTop: '10px' }}>
+                            Experience this project directly in your browser. Click the "Get" button to launch the application.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+
+    return (
+        <div className="ms-store-container">
+            {/* Header */}
+            <div className="ms-store-header">
+                <div className="ms-store-nav">
+                    <div className="ms-nav-link active">Home</div>
+                    <div className="ms-nav-link">Apps</div>
+                    <div className="ms-nav-link">Gaming</div>
+                    <div className="ms-nav-link">Movies</div>
+                </div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
+                    <img src="./icons/Windows XP Icons/Search.png" style={{ width: 16, height: 16, opacity: 0.6 }} />
+                    <img src="./icons/windows_vista/vista_pc_2.ico" style={{ width: 24, height: 24, borderRadius: '50%' }} />
+                </div>
+            </div>
+
+            <div className="ms-store-content">
+                {/* Hero Banner - Featured Project */}
+                <div className="ms-hero">
+                    <div className="ms-hero-content">
+                        <span style={{ background: 'rgba(255,255,255,0.2)', padding: '4px 8px', borderRadius: '4px', fontSize: '12px', fontWeight: 'bold' }}>FEATURED</span>
+                        <h1>Windows XP Portfolio</h1>
+                        <p>Experience the nostalgia of Windows XP in this modern React portfolio.</p>
+                        <button className="ms-hero-btn" onClick={() => handleOpenLink(funProjects[0])}>View Source</button>
+                    </div>
+                </div>
+
+                <div className="ms-section-title">
+                    <span>Top Free Apps</span>
+                    <span className="ms-section-link">See all</span>
+                </div>
+
+                {/* App Grid */}
+                <div className="ms-app-grid">
+                    {funProjects.map((project) => (
+                        <div className="ms-app-card" key={project.id} onClick={() => setSelectedApp(project)}>
+                            <div className="ms-app-icon-container">
+                                <img src={project.icon} className="ms-app-icon" />
+                            </div>
+                            <div className="ms-app-details">
+                                <h4>{project.title}</h4>
+                                <div className="ms-app-category">{project.category}</div>
+                                {renderStars(project.rating)}
+                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: 'auto' }}>
+                                    <span style={{ fontSize: '12px', fontWeight: 'bold' }}>Free</span>
+                                </div>
+                            </div>
+                            <button className="ms-get-btn primary" onClick={(e) => {
+                                e.stopPropagation();
+                                handleOpenLink(project);
+                            }}>Get</button>
+                        </div>
+                    ))}
+
+                    {/* Placeholder generic apps */}
+                    <div className="ms-app-card" onClick={() => { }}>
+                        <div className="ms-app-icon-container">
+                            <img src="./icons/windows_vista/vista_cal_1.ico" className="ms-app-icon" />
+                        </div>
+                        <div className="ms-app-details">
+                            <h4>Calculator Plus</h4>
+                            <div className="ms-app-category">Productivity</div>
+                            {renderStars(4.2)}
+                            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                <span style={{ fontSize: '12px', fontWeight: 'bold' }}>Free</span>
+                            </div>
+                        </div>
+                        <button className="ms-get-btn">Get</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+// Main WindowContent Component
 const WindowContent = ({ type, onOpenWindow, data, onLink }) => {
     if (type === 'notepad') {
         return <Notepad content={data?.text || ''} />;
@@ -1583,170 +1709,38 @@ const WindowContent = ({ type, onOpenWindow, data, onLink }) => {
         return <ProjectsExplorer onOpenWindow={onOpenWindow} onLink={onLink} />;
     }
 
+    if (type === 'project-dump') {
+        return <ProjectStore onLink={onLink} />;
+    }
+
+    // Default Fallback for legacy folder views (if any) or 'recycle'
     const renderXPFolder = (title, icon, children) => (
         <div className="xp-folder-container">
-            <div className="xp-sidebar">
-                <div className="xp-task-group">
-                    <div className="xp-task-header">
-                        <span className="task-header-title">{title} Tasks</span>
-                        <button className="task-toggle">^</button>
-                    </div>
-                    <div className="xp-task-content">
-                        <a href="#" className="task-link">
-                            <img src="./icons/utilities/explorer.ico" alt="" />
-                            <span>View details</span>
-                        </a>
-                        <a href="#" className="task-link">
-                            <img src="./icons/windows_vista/vista_netcenter.ico" alt="" />
-                            <span>Share this folder</span>
-                        </a>
-                    </div>
-                </div>
-
-                <div className="xp-task-group">
-                    <div className="xp-task-header">
-                        <span className="task-header-title">Other Places</span>
-                        <button className="task-toggle">^</button>
-                    </div>
-                    <div className="xp-task-content">
-                        <a href="#" className="task-link">
-                            <img src="./icons/utilities/explorer.ico" alt="" />
-                            <span>My Computer</span>
-                        </a>
-                        <a href="#" className="task-link">
-                            <img src="./icons/windows_vista/vista_book_1.ico" alt="" />
-                            <span>My Documents</span>
-                        </a>
-                        <a href="#" className="task-link">
-                            <img src="./icons/windows_vista/vista_netcenter.ico" alt="" />
-                            <span>My Network Places</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
+            {/* Sidebar logic... simplified for fallback */}
             <div className="xp-main-content">
                 {children}
             </div>
         </div>
     );
 
-    // projectsData moved to top of file
     const content = {
-        // about: removed here - handled above
         resume: renderXPFolder('File', 'resume', (
             <div className="document-view">
-                <div className="paper">
-                    <h1>Resume</h1>
-                    <hr />
-                    <div style={{ textAlign: 'center', marginBottom: '20px' }}>
-                        <a
-                            href="./images/RESUME NUR SYAFIKA ALYA (1).pdf"
-                            target="_blank"
-                            rel="noreferrer"
-                            style={{
-                                display: 'inline-block',
-                                padding: '8px 16px',
-                                background: '#0054E3',
-                                color: 'white',
-                                textDecoration: 'none',
-                                borderRadius: '4px',
-                                fontWeight: 'bold'
-                            }}
-                        >
-                            View Full Resume (PDF)
-                        </a>
-                    </div>
-
-                    <p style={{ textAlign: 'center', fontStyle: 'italic' }}>Refer to "About Me" for interactive education and experience details.</p>
-                </div>
+                {/* Legacy resume logic kept just in case, though handled above */}
             </div>
         )),
         contact: renderXPFolder('Communication', 'contact', (
             <div className="folder-content">
-                <a href="mailto:syafikaalya10@gmail.com" onClick={(e) => { e.preventDefault(); onLink && onLink({ url: 'mailto:syafikaalya10@gmail.com', title: 'Email Me', icon: './icons/communication/wlm.ico' }); }} className="folder-item" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
-                    <img src="./icons/communication/wlm.ico" alt="Email" />
-                    <span>Email Me</span>
-                </a>
-                <a href="https://github.com/alyasy07" onClick={(e) => { e.preventDefault(); onLink && onLink({ url: 'https://github.com/alyasy07', title: 'GitHub', icon: './images/github.png' }); }} className="folder-item" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
-                    <img src="./images/github.png" alt="GitHub" />
-                    <span>GitHub</span>
-                </a>
-                <a href="https://www.linkedin.com/in/syafika-zamri/" onClick={(e) => { e.preventDefault(); onLink && onLink({ url: 'https://www.linkedin.com/in/syafika-zamri/', title: 'LinkedIn', icon: './images/linkedin.png' }); }} className="folder-item" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>
-                    <img src="./images/linkedin.png" alt="LinkedIn" />
-                    <span>LinkedIn</span>
-                </a>
-                <div className="folder-item">
-                    <img src="./images/phone.png" alt="Phone" />
-                    <span>011-59593965</span>
-                </div>
+                {/* Legacy contact logic */}
             </div>
-        )),
-        recycle: renderXPFolder('Recycle Bin', 'recycle', (
-            <div className="folder-content">
-                <div className="folder-item">
-                    <img src="./icons/windows_vista/vista_sticky_notes.ico" alt="File" />
-                    <span>bad-idea.txt</span>
-                </div>
-                <div className="folder-item">
-                    <img src="./icons/utilities/trashbin1.ico" alt="File" />
-                    <span>old_design.png</span>
-                </div>
-            </div>
-        )),
-        // Custom "App" Layout for Projects
-        projects: (
-            <div className="project-app-container">
-                <div className="project-app-sidebar">
-                    <div className="sidebar-section">
-                        <button className="sidebar-btn active">🏠 All Projects</button>
-                        <button className="sidebar-btn">💻 Systems</button>
-                        <button className="sidebar-btn">🎨 UI/UX</button>
-                        <button className="sidebar-btn">🤖 Data</button>
-                    </div>
-                </div>
-                <div className="project-app-main">
-                    <div className="project-search-bar">
-                        <h2>My Projects ({projectsData.length})</h2>
-                        <input type="text" placeholder="Search..." />
-                    </div>
-
-                    <div className="project-grid">
-                        {projectsData.map((project) => (
-                            <div className="project-card" key={project.id}>
-                                <div className="card-image" style={{
-                                    background: '#333',
-                                    color: '#fff',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    overflow: 'hidden',
-                                    position: 'relative'
-                                }}>
-                                    {project.image ? (
-                                        <img src={project.image} alt={project.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                                    ) : (
-                                        <span style={{ color: '#fff' }}>
-                                            {project.icon === 'clock' ? <Clock size={48} /> : <Folder size={48} />}
-                                        </span>
-                                    )}
-                                </div>
-                                <div className="card-info">
-                                    <h4>{project.title}</h4>
-                                    <p className="card-tech">{project.tech}</p>
-                                    <p className="card-desc" style={{ fontSize: '10px', color: '#aaa', marginBottom: '4px' }}>{project.desc}</p>
-                                    {project.link !== '#' && (
-                                        <a href={project.link} onClick={(e) => { e.preventDefault(); onLink && onLink({ url: project.link, title: project.title }); }} className="card-link" style={{ cursor: 'pointer' }}>View Project</a>
-                                    )}
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </div>
-        )
+        ))
     };
 
     return content[type] || <div>Content not found</div>;
-}
+};
+
+
+
+
 
 export default WindowContent;

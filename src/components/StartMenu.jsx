@@ -68,15 +68,6 @@ function StartMenu({ onClose, onOpenWindow, onLink }) {
                                 <span className="main-text">Paint</span>
                             </div>
 
-                            <div className="start-item" onClick={() => handleItemClick('openWindow', { title: 'Media Player', content: 'image-viewer', width: 600, height: 400, data: { image: './images/windows_xp_49.jpg', title: 'Wallpaper' } })}>
-                                <img src="./icons/Windows XP Icons/Windows Media Player 9.png" alt="" />
-                                <span className="main-text">Media Player</span>
-                            </div>
-
-                            <div className="start-item">
-                                <img src="./icons/media/wmp1.ico" alt="" />
-                                <span className="main-text">Music Player</span>
-                            </div>
 
                             <div className="all-programs">
                                 All Programs ▶

@@ -39,10 +39,10 @@ function Desktop({ windows, onOpenWindow, onCloseWindow, onMinimizeWindow, onFoc
       content: 'contact'
     },
     {
-      id: 'recycle',
-      title: 'Recycle Bin',
-      icon: './icons/utilities/trashbin1.ico', // Replaced with local icon
-      content: 'recycle'
+      id: 'project-dump',
+      title: 'Project Dump',
+      icon: './icons/windows_vista/vista_marketplace.ico', // Fun Projects Collection
+      content: 'project-dump'
     }
   ];
 
