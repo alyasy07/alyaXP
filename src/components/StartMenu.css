@@ -189,7 +189,34 @@
     font-size: 12px;
     cursor: pointer;
 }
+
 .all-programs:hover {
     background: #316AC5;
     color: #fff;
 }
+
+@media (max-width: 480px) {
+  .start-menu {
+    width: 100%;
+    bottom: 40px; /* Above taskbar */
+    border-radius: 0;
+    border: none;
+    border-top: 2px solid #003c74;
+    height: 80vh; /* Taller on mobile for easier access */
+  }
+
+  .start-body {
+    height: auto;
+    flex: 1;
+  }
+  
+  .start-column-left, .start-column-right {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .user-account-name {
+    font-size: 14px;
+  }
+}
+

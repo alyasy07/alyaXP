@@ -107,7 +107,11 @@
     box-shadow: inset 0 0 2px rgba(255, 215, 0, 0.5);
 }
 
-.xp-modal-btn.focus {
-    border: 1px solid #003C74;
-    box-shadow: inset 0 0 0 1px #ADD8E6; 
+
+@media (max-width: 420px) {
+    .link-modal-window {
+        width: 90%;
+        max-width: 400px;
+    }
 }
+

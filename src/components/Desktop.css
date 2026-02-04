@@ -7,6 +7,7 @@
   overflow: hidden;
 }
 
+
 .desktop-icons {
   display: grid;
   grid-template-columns: repeat(auto-fill, 100px);
@@ -14,3 +15,18 @@
   gap: 20px;
   padding: 20px;
 }
+
+@media (max-width: 768px) {
+  .desktop {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .desktop-icons {
+    grid-template-columns: repeat(auto-fill, 80px);
+    grid-auto-rows: 90px;
+    gap: 10px;
+    padding: 10px;
+  }
+}
+

@@ -1114,3 +1114,73 @@
 .ms-get-btn.primary:hover {
     background: #0060aa;
 }
+
+@media (max-width: 600px) {
+  /* Store Layout Adjustments */
+  .ms-store-container {
+    padding: 0;
+  }
+
+  .ms-store-header {
+      padding: 10px;
+      flex-direction: column;
+      height: auto;
+      gap: 10px;
+  }
+  
+  .ms-store-nav {
+      gap: 15px;
+      width: 100%;
+      justify-content: center;
+  }
+
+  .ms-hero {
+      height: 200px; /* Smaller hero */
+      padding: 20px;
+  }
+  
+  .ms-hero h1 {
+      font-size: 1.8rem;
+  }
+
+  .ms-app-grid {
+      grid-template-columns: 1fr; /* Stack apps */
+      gap: 10px;
+  }
+  
+  .ms-store-content {
+      padding: 15px; /* Reduce padding */
+  }
+
+  /* Generic Project Grid Adjustments */
+  .project-app-container {
+      flex-direction: column;
+  }
+  
+  .project-app-sidebar {
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid #333;
+      padding: 5px;
+      flex-direction: row;
+      overflow-x: auto;
+      white-space: nowrap;
+      height: 50px;
+  }
+  
+  .sidebar-section {
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+  }
+  
+  .sidebar-btn {
+      width: auto;
+      padding: 5px 10px;
+      margin-bottom: 0;
+  }
+
+  .project-grid {
+      grid-template-columns: 1fr;
+  }
+}

@@ -101,9 +101,29 @@
   object-fit: contain;
 }
 
+
 .clock {
   color: #fff;
   font-size: 0.85rem;
   padding-left: 8px;
   border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
+
+@media (max-width: 600px) {
+  .taskbar-items {
+    display: none; /* Hide open taskbar items on very small screens to save space */
+  }
+
+  .system-tray {
+    margin-left: auto; /* Push tray to the right */
+  }
+
+  .start-button {
+    padding: 4px 8px;
+  }
+  
+  .start-text {
+    display: none; /* Hide 'Start' text on mobile, keep icon */
+  }
+}
+

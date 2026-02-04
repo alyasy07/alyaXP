@@ -216,3 +216,29 @@
   position: fixed !important;
 }
 
+
+@media (max-width: 768px) {
+  .window {
+      width: 100% !important;
+      height: calc(100vh - 40px) !important; /* Subtract taskbar height */
+      top: 0 !important;
+      left: 0 !important;
+      transform: none !important;
+      border-radius: 0;
+      position: fixed !important;
+  }
+
+  .window-wrapper {
+      width: 100% !important;
+      height: 100% !important;
+      top: 0 !important;
+      left: 0 !important;
+      transform: none !important;
+  }
+  
+  .window-titlebar {
+      border-radius: 0;
+  }
+  
+  /* Hide resize handles on mobile if they exist/overlap */
+}
