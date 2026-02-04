@@ -233,7 +233,7 @@ The project successfully identified Physical Health and Body Image as the primar
     {
         id: 'testing',
         title: 'Peer Testing',
-        category: 'Systems',
+        category: 'Testing',
         desc: 'Comprehensive System Testing',
         fullDesc: `<p><strong>Project Overview:</strong><br/>This project focuses on system testing rather than system development. As part of an academic requirement, each group was assigned another group's web system to evaluate through structured peer testing. My role involved analysing system behaviour, designing manual test cases, executing functional and usability testing, and documenting findings in a formal System Testing Document (STD).</p>
 
@@ -262,7 +262,7 @@ The project successfully identified Physical Health and Body Image as the primar
     {
         id: 'sentiment',
         title: 'Sentiment Analysis',
-        category: 'AI/Data',
+        category: 'Data',
         desc: 'Roblox User Reviews',
         fullDesc: `Executive Summary:
 This project involved a comprehensive sentiment analysis of Roblox user reviews from the Google Play Store to identify user satisfaction and common technical concerns. I executed the full data science lifecycle, from automated web scraping to deploying machine learning models for predictive analysis.
@@ -295,7 +295,7 @@ The project provides Roblox developers with actionable, data-driven insights int
     {
         id: 'focusgrow',
         title: 'FocusGrow',
-        category: 'Systems',
+        category: 'UI/UX',
         desc: 'Study Focus & Productivity',
         fullDesc: `Project Overview:
 FocusGrow is a high-fidelity prototype study focus and productivity web application I built to practice front-end development skills and experiment with modern deployment workflows. This project emphasizes clean UI, responsive layout, and client-side JavaScript for interactivity, while also exploring CI/CD through Vercel deployment.
@@ -1013,7 +1013,8 @@ const ProjectsExplorer = ({ onOpenWindow, onLink }) => {
         { id: 'All', label: 'All', icon: './icons/Windows XP Icons/Search Results.png' },
         { id: 'Systems', label: 'Systems', icon: './icons/Windows XP Icons/My Computer.png' },
         { id: 'UI/UX', label: 'UI/UX', icon: './icons/Windows XP Icons/Paint.png' },
-        { id: 'AI/Data', label: 'AI/Data', icon: './icons/Windows XP Icons/Performance.png' }
+        { id: 'Data', label: 'Data', icon: './icons/Windows XP Icons/Performance.png' },
+        { id: 'Testing', label: 'Testing', icon: './icons/Windows XP Icons/Help and Support.png' }
     ];
 
     return (
@@ -1700,7 +1701,7 @@ const WindowContent = ({ type, onOpenWindow, data, onLink }) => {
                         <button className="sidebar-btn active">🏠 All Projects</button>
                         <button className="sidebar-btn">💻 Systems</button>
                         <button className="sidebar-btn">🎨 UI/UX</button>
-                        <button className="sidebar-btn">🤖 AI/Data</button>
+                        <button className="sidebar-btn">🤖 Data</button>
                     </div>
                 </div>
                 <div className="project-app-main">
