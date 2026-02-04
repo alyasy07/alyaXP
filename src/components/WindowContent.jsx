@@ -342,7 +342,6 @@ Next Steps / Potential Improvements:
 
 <div style='margin-top: 20px;'><a href='https://focus-grow-eta.vercel.app' target='_blank' class='yt-desc-link'><img src='/icons/windows_vista/vista_netcenter.ico' style='width:16px; margin-right:5px; vertical-align:middle;' /> View Live Demo</a></div>`,
         tech: 'React • Vercel',
-        image: null, // No image in assets, will use icon
         icon: 'clock', image: '/icons/windows_vista/vista_cal_1.ico',
         link: 'https://focus-grow-eta.vercel.app'
     }
